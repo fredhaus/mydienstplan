@@ -1,26 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { FC, useEffect, useState } from "react";
+import InputEmployees from "./components/InputEmployees";
+import InputShifts from "./components/InputShifts";
 
-function App() {
+const App: FC = () => {
+  const test = { test: "moin" };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>MyDienstplan</h1>
+      <InputShifts {...test} />
+
+      <InputEmployees />
     </div>
   );
-}
+};
 
 export default App;

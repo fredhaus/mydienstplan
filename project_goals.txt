@@ -1,0 +1,27 @@
+Stack:
+
+
+
+Goals:
+- input: csv with names, availabilities
+- input shifts, "must", "optional"
+- output: ready dienstplan, csv export
+- Make Account, save dienstplaene
+
+Backlog:
+- Edit created Employees Names and Working days
+
+
+
+
+Backend:
+- Node.js
+- Express
+- MongoDB || dynamoDB
+- AWS hosting?
+
+FE:
+- GraphQL / Apollo 
+- React
+- Typescript
+
