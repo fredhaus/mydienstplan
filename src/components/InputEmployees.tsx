@@ -1,65 +1,56 @@
 import { type } from "os";
 import React, { FC, useState } from "react";
+import { IEmployee } from "../interfaces";
+import { Store } from "../Store";
+import Dropdown from "react-dropdown";
+import "react-dropdown/style.css";
 
-interface IEmployee {
-  fName: string;
-  lName: string;
-  workingDays: number;
-  beingEdited: boolean;
-  positions: Array<string>;
-}
-
-const initalEmployees = [
-  {
-    fName: "Fred",
-    lName: "Haus",
-    workingDays: 12,
-    beingEdited: false,
-    positions: ["vr", "beamy"],
-  },
-  {
-    fName: "Phil",
-    lName: "Hill",
-    workingDays: 10,
-    beingEdited: false,
-    positions: [],
-  },
-];
-
-const InputEmployees: FC = (props:Object) => {
+const InputEmployees: FC = (props: Object) => {
+  // Global State
+  const { state, dispatch } = React.useContext(Store);
+  // Local State
   const [fName, setFname] = useState<string>("");
   const [lName, setLname] = useState<string>("");
   const [workingDays, setWorkingDays] = useState<number>(0);
   const [beingEdited, setBeingEdited] = useState<boolean>(false);
-  const [employees, setEmployees] = useState<IEmployee[]>(initalEmployees);
-  const [positions, setPositions] = useState<Array<string>>([]);
+  const [employees, setEmployees] = useState<IEmployee[]>([]);
+  const [positions, setPositions] = useState<string>("");
+  const [allJobPositions, setallJobPositions] = useState<Array<string>>([]);
 
-  console.log(typeof employees);
-
+  // Actions
   const addEmployee = () => {
-    setEmployees((prev) => [
-      ...prev,
-      { fName, lName, workingDays, beingEdited, positions },
-    ]);
     setFname("");
     setLname("");
     setWorkingDays(0);
-    setPositions([]);
+    setPositions("");
+    setallJobPositions([])
+
+    return dispatch({
+      type: "ADD_EMPLOYEE",
+      payload: { fName, lName, workingDays, beingEdited, allJobPositions },
+    });
+  };
+
+  const addJobPosition = (JobPosition: string) => {
+    const newJobPositions = [...allJobPositions, JobPosition];
+    setallJobPositions(newJobPositions);
+    setPositions("");
   };
 
   const editEmployee = (position: number) => {
-    employees[position].beingEdited = !employees[position].beingEdited;
-    setEmployees([...employees]);
+    console.log("editing")
   };
 
   const deleteEmployee = (position: number) => {
-    employees.splice(position, 1);
-    setEmployees([...employees]);
+    state.employees.splice(position, 1);
+    setEmployees([])
+    return dispatch({
+      action: "DELETE_EMPLOYEE",
+      payload: [...state.employees],
+    });
   };
 
-  const clg = () => {
-    console.log(employees);
-  };
+
 
   return (
     <div>
@@ -93,22 +84,35 @@ const InputEmployees: FC = (props:Object) => {
       </div>
       <div>
         <span>Positions </span>
-        <input
-          onChange={(e) => setPositions([...positions, e.target.value])}
-          type="text"
-          placeholder="i.e. com operator"
-          value={positions}
-        />
+
+        <span>
+          {allJobPositions.map((pos, i) => (
+            <div key={i}>{pos}</div>
+          ))}
+          <select
+            onChange={(e) => {
+              setPositions(e.target.value);
+            }}
+            value={positions}
+          >
+            <option label=" "></option>
+            {state.positions.map((pos: string, i: number) => (
+              <option key={i} value={pos}>
+                {pos}
+              </option>
+            ))}
+          </select>
+
+          <button onClick={() => addJobPosition(positions)}> + </button>
+        </span>
       </div>
+
       <br />
 
       <button
-        onKeyPress={(e) => {
-          if (e.key === "Enter") {
-            addEmployee();
-          }
+        onClick={() => {
+          addEmployee();
         }}
-        onClick={addEmployee}
       >
         Add Employee
       </button>
@@ -117,7 +121,8 @@ const InputEmployees: FC = (props:Object) => {
 
       <div>
         <ul>
-          {employees.map((employee, i) => (
+          {console.log(state)}
+          {state.employees.map((employee: any, i: number) => (
             <li key={i}>
               <button
                 onClick={() => {
@@ -128,21 +133,18 @@ const InputEmployees: FC = (props:Object) => {
                 X{" "}
               </button>{" "}
               <button onClick={() => editEmployee(i)}> Edit </button>{" "}
-              {employee.beingEdited
-                ? "Edit here"
-                : employee.fName +
+              { employee.fName +
                   " " +
                   employee.lName +
-                  "- " +
+                  " - " +
                   employee.workingDays +
                   " days - " +
-              employee.positions.map(elem => " " +elem)
-                  
-                  }
+                  employee.allJobPositions.map((elem: string) => " " + elem)}
             </li>
           ))}
         </ul>
       </div>
+      
     </div>
   );
 };

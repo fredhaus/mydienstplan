@@ -15,4 +15,14 @@ export interface IAction {
 export interface IState {
   shifts: Array<any>
   employees: Array<any>
+  positions: Array<any>
+}
+
+export interface IEmployee {
+  fName: string;
+  lName: string;
+  workingDays: number;
+  months: Array<any>;
+  beingEdited: boolean;
+  allJobPositions: Array<string>;
 }

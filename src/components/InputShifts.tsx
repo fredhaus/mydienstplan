@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { IShift, IAppProps } from "../interfaces";
-import {Store} from "../Store"
+import { Store } from "../Store";
 
 const InputShifts: React.FC<IAppProps> = (props) => {
   const { state, dispatch } = React.useContext(Store);
-
 
   const [shiftName, setShiftName] = useState<string>("");
   const [necesarry, setNecesarry] = useState<boolean>(false);
@@ -21,21 +20,22 @@ const InputShifts: React.FC<IAppProps> = (props) => {
 
     return dispatch({
       type: "ADD_SHIFT",
-      payload: {shiftName, necesarry}
-    })
-
+      payload: { shiftName, necesarry },
+    });
   };
 
-  const deleteShift = (position: number) => {
-    shifts.splice(position, 1);
-    setShifts([...shifts]);
+  const deleteShift = (index: number) => {
+    state.shifts.splice(index, 1);
+    setShifts([...state.shifts]);
+    return dispatch({
+      action: "DELETE_SHIFT",
+      payload: [...shifts],
+    });
   };
 
-
-
-const showCLG = () => {
-  console.log(state)
-}
+  const showCLG = () => {
+    console.log(state);
+  };
 
   return (
     <div>
@@ -55,7 +55,7 @@ const showCLG = () => {
       <button onClick={addShift}>Add Shift</button>
       <h3>Shifts</h3>
       <ul>
-        {shifts.map((shift, i) => (
+        {state.shifts.map((shift: any, i: number) => (
           <li key={i}>
             <button onClick={() => deleteShift(i)}> X </button>{" "}
             {shift.shiftName} - {shift.necesarry ? "YES" : "no"}

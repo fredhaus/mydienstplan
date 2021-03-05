@@ -1,6 +1,24 @@
+Backlog:
+
+- 
+- Edit created Employees Names and Working days
+ 
+
+
+
+
+
 Stack:
+      Backend:
+      - Node.js
+      - Express
+      - MongoDB || dynamoDB
+      - AWS hosting?
 
-
+      FE:
+      - GraphQL / Apollo 
+      - React
+      - Typescript
 
 Goals:
 - input: csv with names, availabilities
@@ -8,20 +26,12 @@ Goals:
 - output: ready dienstplan, csv export
 - Make Account, save dienstplaene
 
-Backlog:
-- Edit created Employees Names and Working days
 
 
 
+DONE: 
+- Global State via ContextAPI // Store
 
-Backend:
-- Node.js
-- Express
-- MongoDB || dynamoDB
-- AWS hosting?
 
-FE:
-- GraphQL / Apollo 
-- React
-- Typescript
+
 
