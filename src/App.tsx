@@ -3,6 +3,7 @@ import CalendarInterface from "./components/CalendarInterface";
 import InputEmployees from "./components/InputEmployees";
 import InputPositions from "./components/InputPositions";
 import InputShifts from "./components/InputShifts";
+import ManualCalendar from "./components/ManualCalendar";
 
 const App: FC = () => {
   const test = { test: "moin" };
@@ -10,7 +11,8 @@ const App: FC = () => {
   return (
     <div className="App">
       <h1>MyDienstplan</h1>
-      <CalendarInterface/>
+      {/* <CalendarInterface/> */}
+      <ManualCalendar/>
       <InputPositions/>
       <InputShifts {...test} />
       <InputEmployees />
