@@ -16,6 +16,7 @@ export interface IState {
   shifts: Array<any>
   employees: Array<any>
   positions: Array<any>
+  calendarMonth: Array<any>
 }
 
 export interface IEmployee {

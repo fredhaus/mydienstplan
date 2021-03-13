@@ -5,35 +5,20 @@ const initialState: IState = {
   shifts: [],
   employees: [],
   positions: [],
+  calendarMonth: [],
 };
-// const initialState: IState = {
-//   shifts: [{
-//     shiftName: "Bimi", necesarry: true
-//   },{shiftName: "Bimi2", necesarry: true}],
-//   employees: [
-//     {  fName: "Fred",
-//       lName: "haus",
-//       workingDays: 12,
-//       beingEdited: false,
-//       allJobPositions: ["Bimi"]},
-//       {  fName: "Fred2",
-//       lName: "haus2",
-//       workingDays: 12,
-//       beingEdited: false,
-//       allJobPositions: ["Bimi"]}
-//   ],
-//   positions: ["Bimi", "Mischer"]
-// };
 
 export const Store = React.createContext<IState | any>(initialState);
 
 const reducer = (state: IState, action: IAction) => {
   switch (action.type) {
+    // Employee
     case "ADD_EMPLOYEE":
       return { ...state, employees: [...state.employees, action.payload] };
     case "DELETE_EMPLOYEE":
       return { ...state, employees: action.payload };
     case "EDIT_EMPLOYEE":
+      // Shift
       return state;
     case "ADD_SHIFT":
       return { ...state, shifts: [...state.shifts, action.payload] };
@@ -41,11 +26,19 @@ const reducer = (state: IState, action: IAction) => {
       return { ...state, shifts: action.payload };
     case "EDIT_SHIFT":
       return state;
+    // Position
     case "ADD_POSITION":
       return { ...state, positions: [...state.positions, action.payload] };
     case "DELETE_POSITION":
       return { ...state, positions: action.payload };
     case "EDIT_POSITION":
+      return state;
+    // CalendarMonth
+    case "ADD_CALENDERMONTH":
+      return {...state, calendarMonth: action.payload};
+    case "DELETE_CALENDERMONTH":
+      return state;
+    case "EDIT_CALENDERMONTH":
       return state;
     default:
       return state;

@@ -1,8 +1,7 @@
-import { type } from "os";
 import React, { FC, useState } from "react";
 import { IEmployee } from "../interfaces";
 import { Store } from "../Store";
-import Dropdown from "react-dropdown";
+
 import "react-dropdown/style.css";
 
 const InputEmployees: FC = (props: Object) => {
@@ -23,7 +22,7 @@ const InputEmployees: FC = (props: Object) => {
     setLname("");
     setWorkingDays(0);
     setPositions("");
-    setallJobPositions([])
+    setallJobPositions([]);
 
     return dispatch({
       type: "ADD_EMPLOYEE",
@@ -38,19 +37,17 @@ const InputEmployees: FC = (props: Object) => {
   };
 
   const editEmployee = (position: number) => {
-    console.log("editing")
+    console.log("editing");
   };
 
   const deleteEmployee = (position: number) => {
     state.employees.splice(position, 1);
-    setEmployees([])
+    setEmployees([]);
     return dispatch({
       action: "DELETE_EMPLOYEE",
       payload: [...state.employees],
     });
   };
-
-
 
   return (
     <div>
@@ -121,7 +118,6 @@ const InputEmployees: FC = (props: Object) => {
 
       <div>
         <ul>
-          {console.log(state)}
           {state.employees.map((employee: any, i: number) => (
             <li key={i}>
               <button
@@ -133,18 +129,17 @@ const InputEmployees: FC = (props: Object) => {
                 X{" "}
               </button>{" "}
               <button onClick={() => editEmployee(i)}> Edit </button>{" "}
-              { employee.fName +
-                  " " +
-                  employee.lName +
-                  " - " +
-                  employee.workingDays +
-                  " days - " +
-                  employee.allJobPositions.map((elem: string) => " " + elem)}
+              {employee.fName +
+                " " +
+                employee.lName +
+                " - " +
+                employee.workingDays +
+                " days - " +
+                employee.allJobPositions.map((elem: string) => " " + elem)}
             </li>
           ))}
         </ul>
       </div>
-      
     </div>
   );
 };

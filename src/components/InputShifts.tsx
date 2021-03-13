@@ -2,15 +2,21 @@ import React, { useState } from "react";
 import { IShift, IAppProps } from "../interfaces";
 import { Store } from "../Store";
 
-const InputShifts: React.FC<IAppProps> = (props) => {
+const InputShifts: React.FC<IAppProps> = () => {
   const { state, dispatch } = React.useContext(Store);
 
   const [shiftName, setShiftName] = useState<string>("");
   const [necesarry, setNecesarry] = useState<boolean>(false);
+  const [weekend, setWeekend] = useState<boolean>(false);
   const [shifts, setShifts] = useState<IShift[]>([]);
 
-  const handleClick = () => {
-    setNecesarry(!necesarry);
+  const handleClick = (name: string) => {
+    switch (name) {
+      case "necesarry":
+        return setNecesarry(!necesarry);
+      case "weekend":
+        return setWeekend(!weekend);
+    }
   };
 
   const addShift = () => {
@@ -20,7 +26,7 @@ const InputShifts: React.FC<IAppProps> = (props) => {
 
     return dispatch({
       type: "ADD_SHIFT",
-      payload: { shiftName, necesarry },
+      payload: { shiftName, necesarry, weekend },
     });
   };
 
@@ -34,12 +40,12 @@ const InputShifts: React.FC<IAppProps> = (props) => {
   };
 
   const showCLG = () => {
-    console.log(state);
+    console.log("STATE: ____", state);
   };
 
   return (
     <div>
-      <h2>Input Shifts</h2>
+      <h2>Input all Shifts that need to be staffed</h2>
       <span>Shift Name</span>
       <input
         type="text"
@@ -49,7 +55,20 @@ const InputShifts: React.FC<IAppProps> = (props) => {
       />
       <br />
       <span>Absolutely Necesarry</span>
-      <input type="checkbox" checked={necesarry} onChange={handleClick} />
+      <input
+        type="checkbox"
+        name="necesarry"
+        checked={necesarry}
+        onChange={(e) => handleClick(e.target.name)}
+      />
+      <br/>
+      <span>Weekend / Holiday</span>
+      <input
+        type="checkbox"
+        name="weekend"
+        checked={weekend}
+        onChange={(e) => handleClick(e.target.name)}
+      />
       <br />
       <br />
       <button onClick={addShift}>Add Shift</button>

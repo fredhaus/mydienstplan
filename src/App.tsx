@@ -3,7 +3,8 @@ import CalendarInterface from "./components/CalendarInterface";
 import InputEmployees from "./components/InputEmployees";
 import InputPositions from "./components/InputPositions";
 import InputShifts from "./components/InputShifts";
-import ManualCalendar from "./components/ManualCalendar";
+import CalenderMonth from "./components/CalendarMonth";
+
 
 const App: FC = () => {
   const test = { test: "moin" };
@@ -12,10 +13,10 @@ const App: FC = () => {
     <div className="App">
       <h1>MyDienstplan</h1>
       {/* <CalendarInterface/> */}
-      <ManualCalendar/>
-      <InputPositions/>
+      <CalenderMonth/>
+      {/* <InputPositions/> */}
       <InputShifts {...test} />
-      <InputEmployees />
+      {/* <InputEmployees /> */}
     </div>
   );
 };

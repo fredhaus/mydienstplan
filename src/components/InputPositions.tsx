@@ -24,7 +24,7 @@ function InputPositions() {
 
   return (
     <div>
-      <h2>Input Positions</h2>
+      <h2>Input all possible employee Positions for this Dienstplan</h2>
       <input
         type="text"
         placeholder="position"
