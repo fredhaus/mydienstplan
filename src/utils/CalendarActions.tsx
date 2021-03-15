@@ -8,7 +8,7 @@ export const weekdayObj: Record<string, string> = {
   "0": "Sun",
 };
 
-export const monthChoiceArr = [
+export const monthChoiceArr: {name: string, monthNr: number}[] = [
   { name: "Jan", monthNr: 1 },
   { name: "Feb", monthNr: 2 },
   { name: "Mar", monthNr: 3 },

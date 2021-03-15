@@ -1,10 +1,18 @@
 import React, { useState, useEffect } from "react";
-import { Store } from "../Store";
+import { Store } from "../utils/Store";
 import {
   getMonthArr,
   monthChoiceArr,
   yearChoiceArr,
 } from "../utils/CalendarActions";
+
+interface ObjShape {
+  day: number;
+  month: number;
+  year: number;
+  weekdayString: string;
+  isWeekendHolyday: boolean,
+}
 
 function CalendarMonth() {
   // State
@@ -13,7 +21,13 @@ function CalendarMonth() {
     monthNr: 1,
   });
   const [selectYear, setSelectYear] = useState<any>(2021);
-  const [monthArr, setMonthArr] = useState<any>(
+
+const [moin, setMoin] = useState({
+  name: "Fred",
+  jo: 13
+})
+
+  const [monthArr, setMonthArr] = useState<ObjShape[]>(
     getMonthArr(selectMonth.monthNr, selectYear)
   );
   const [submit, setSubmit] = useState({
@@ -53,7 +67,7 @@ function CalendarMonth() {
         name=""
         id=""
       >
-        {monthChoiceArr.map((elem: any) => (
+        {monthChoiceArr.map((elem) => (
           <option key={elem.name} value={elem.monthNr}>
             {elem.name}
           </option>
@@ -74,7 +88,7 @@ function CalendarMonth() {
           </option>
         ))}
       </select><br/><br/>
-      <button
+      {/* <button
               onClick={() => setSubmit({
                 ...submit,
                 monthYear: !submit.monthYear,
@@ -82,7 +96,7 @@ function CalendarMonth() {
               type="button"
             >
               Submit Submit
-            </button>
+            </button> */}
       {submit.monthYear && (
         <div>
           <h2>Choose weekends and Public Holidays</h2>

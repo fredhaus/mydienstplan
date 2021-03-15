@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { IShift, IAppProps } from "../interfaces";
-import { Store } from "../Store";
+import { IShift, IAppProps } from "../utils/interfaces";
+import { Store } from "../utils/Store";
 
-const InputShifts: React.FC<IAppProps> = () => {
+const InputShifts: React.FC= () => {
   const { state, dispatch } = React.useContext(Store);
 
   const [shiftName, setShiftName] = useState<string>("");
@@ -23,6 +23,7 @@ const InputShifts: React.FC<IAppProps> = () => {
     setShifts((prev) => [...prev, { shiftName, necesarry }]);
     setShiftName("");
     setNecesarry(false);
+    setWeekend(false)
 
     return dispatch({
       type: "ADD_SHIFT",

@@ -36,10 +36,6 @@ const reducer = (state: IState, action: IAction) => {
     // CalendarMonth
     case "ADD_CALENDERMONTH":
       return {...state, calendarMonth: action.payload};
-    case "DELETE_CALENDERMONTH":
-      return state;
-    case "EDIT_CALENDERMONTH":
-      return state;
     default:
       return state;
   }

@@ -1,22 +1,17 @@
-import React, { FC} from "react";
-import CalendarInterface from "./components/CalendarInterface";
-import InputEmployees from "./components/InputEmployees";
-import InputPositions from "./components/InputPositions";
-import InputShifts from "./components/InputShifts";
-import CalenderMonth from "./components/CalendarMonth";
-
+import React, { FC } from "react";
+import { Switch, Route, BrowserRouter } from "react-router-dom";
+import Home from "./components/Home";
+import InputContainer from "./components/InputContainer";
 
 const App: FC = () => {
-  const test = { test: "moin" };
-
   return (
     <div className="App">
-      <h1>MyDienstplan</h1>
-      {/* <CalendarInterface/> */}
-      <CalenderMonth/>
-      {/* <InputPositions/> */}
-      <InputShifts {...test} />
-      {/* <InputEmployees /> */}
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/input" component={InputContainer} />
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 };

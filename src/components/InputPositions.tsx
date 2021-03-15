@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Store } from "../Store";
+import { Store } from "../utils/Store";
 
 function InputPositions() {
   const { state, dispatch } = React.useContext(Store);

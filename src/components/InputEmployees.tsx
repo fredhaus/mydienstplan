@@ -1,6 +1,6 @@
 import React, { FC, useState } from "react";
-import { IEmployee } from "../interfaces";
-import { Store } from "../Store";
+import { IEmployee } from "../utils/interfaces";
+import { Store } from "../utils/Store";
 
 import "react-dropdown/style.css";
 
