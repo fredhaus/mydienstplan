@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { IShift, IAppProps } from "../utils/interfaces";
 import { Store } from "../utils/Store";
 
-const InputShifts: React.FC= () => {
+const InputShifts: React.FC = () => {
   const { state, dispatch } = React.useContext(Store);
 
   const [shiftName, setShiftName] = useState<string>("");
@@ -19,11 +19,12 @@ const InputShifts: React.FC= () => {
     }
   };
 
-  const addShift = () => {
+  const addShift = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
     setShifts((prev) => [...prev, { shiftName, necesarry }]);
     setShiftName("");
     setNecesarry(false);
-    setWeekend(false)
+    setWeekend(false);
 
     return dispatch({
       type: "ADD_SHIFT",
@@ -47,32 +48,34 @@ const InputShifts: React.FC= () => {
   return (
     <div>
       <h2>Input all Shifts that need to be staffed</h2>
-      <span>Shift Name</span>
-      <input
-        type="text"
-        placeholder="Shift Name"
-        value={shiftName}
-        onChange={(e) => setShiftName(e.target.value)}
-      />
-      <br />
-      <span>Absolutely Necesarry</span>
-      <input
-        type="checkbox"
-        name="necesarry"
-        checked={necesarry}
-        onChange={(e) => handleClick(e.target.name)}
-      />
-      <br/>
-      <span>Weekend / Holiday</span>
-      <input
-        type="checkbox"
-        name="weekend"
-        checked={weekend}
-        onChange={(e) => handleClick(e.target.name)}
-      />
-      <br />
-      <br />
-      <button onClick={addShift}>Add Shift</button>
+      <form onSubmit={(e) => addShift(e)}>
+        <span>Shift Name</span>
+        <input
+          type="text"
+          placeholder="Shift Name"
+          value={shiftName}
+          onChange={(e) => setShiftName(e.target.value)}
+        />
+        <br />
+        <span>Absolutely Necesarry</span>
+        <input
+          type="checkbox"
+          name="necesarry"
+          checked={necesarry}
+          onChange={(e) => handleClick(e.target.name)}
+        />
+        <br />
+        <span>Weekend / Holiday</span>
+        <input
+          type="checkbox"
+          name="weekend"
+          checked={weekend}
+          onChange={(e) => handleClick(e.target.name)}
+        />
+        <br />
+        <br />
+        <button type="submit">Add Shift</button>
+      </form>
       <h3>Shifts</h3>
       <ul>
         {state.shifts.map((shift: any, i: number) => (
