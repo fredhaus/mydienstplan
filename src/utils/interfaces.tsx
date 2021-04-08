@@ -13,13 +13,13 @@ export interface IAction {
 }
 
 export interface IState {
-  shifts: Array<any>
-  employees: Array<any>
-  positions: Array<any>
-  calendarMonth: Array<any>
-  availability: Array<any>
-  bulkPositions: Array<any>
-  dataInputTab: Array<any>
+  shifts: any
+  employees: any
+  positions: any
+  calendarMonth: any
+  availability: any
+  bulkPositions: any
+  dataInputTab: any
 }
 
 export interface IEmployee {

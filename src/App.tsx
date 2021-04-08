@@ -1,11 +1,10 @@
 import React, { FC } from "react";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
 import "./App.css";
-import { GlobalWrapper, Background, BackgroundOverlay, NavbarShadow} from "./App.styles";
+import { GlobalWrapper, Background, BackgroundOverlay} from "./App.styles";
 import Home from "./routes/Home/Home";
-import DataInput from "./routes/DataInput/DataInput";
 import Navbar from "./globalComponents/Navbar";
-import InputPositions from "./routes/DataInput/components/InputPositions/InputPositions/InputPositions";
+import CreateRoster from "./routes/CreateRoster/CreateRoster"
 
 const App: FC = () => {
   return (
@@ -18,8 +17,7 @@ const App: FC = () => {
             <GlobalWrapper>
               <Switch>
                 <Route exact path="/" component={Home} />
-                <Route path="/input" component={DataInput} />
-                <Route path="/inputPositions" component={InputPositions} />
+                <Route path="/createRoster" component={CreateRoster} />
               </Switch>
             </GlobalWrapper>
           </BackgroundOverlay>

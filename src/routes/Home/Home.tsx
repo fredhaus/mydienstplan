@@ -13,10 +13,10 @@ function Home() {
           Instant <b >Employee Rosters</b>
         </HomeHeading>
         <div>
-          The lightweight roster tools for universal work shift scheduling
+          A lightweight roster tools for universal work shift scheduling
         </div>
         <HomeButtonWrapper>
-          <Link style={{textDecoration: "none"}}to="/input">
+          <Link style={{textDecoration: "none"}}to="/createRoster">
             {" "}
             <Button variant="contained" color="primary">
               {"CREATE A ROSTER >"}

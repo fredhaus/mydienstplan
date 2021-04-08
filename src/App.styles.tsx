@@ -98,20 +98,18 @@ export const MenuItemWrapper = styled.span`
   margin: 20px;
 `;
 
-
-
 export const DataInputWrapper = styled.div`
   display: flex;
   flex-direction: row;
-  
-`;
-
-export const DataInputNav = styled.div`
-  width: 100px;
-  margin: 20px;
-  padding: 20px;
 `;
 
 export const DataInputFields = styled.div`
   width: 600px;
+  height: 450px;
+`;
+
+export const FlexRowCentered = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 `;

@@ -10,6 +10,7 @@ const InputShifts: React.FC = () => {
   const [weekend, setWeekend] = useState<boolean>(false);
   const [shifts, setShifts] = useState<IShift[]>([]);
   const [position, setPosition] = useState("");
+  
 
   const handleClick = (name: string) => {
     switch (name) {
@@ -22,15 +23,16 @@ const InputShifts: React.FC = () => {
 
   const addShift = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    
+    dispatch({
+      type: "ADD_SHIFT",
+      payload: { shiftName, necesarry, weekend, position },
+    });
     setShifts((prev) => [...prev, { shiftName, necesarry }]);
     setShiftName("");
     setNecesarry(false);
     setWeekend(false);
-
-    return dispatch({
-      type: "ADD_SHIFT",
-      payload: { shiftName, necesarry, weekend },
-    });
+    setPosition("")
   };
 
   const deleteShift = (index: number) => {

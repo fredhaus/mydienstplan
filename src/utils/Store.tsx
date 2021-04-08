@@ -1,8 +1,27 @@
 import React, { useReducer } from "react";
 import { IState, IAction } from "./interfaces";
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
+import { initialState } from "../seed/initialState";
 
 const theme = createMuiTheme({
+  overrides: {
+    MuiStepper: {
+      root: {
+        // backgroundColor: "green",
+        borderRadius: "10px",
+      },
+    },
+    // MuiStepIcon: {
+    //   root: {
+    //     "&$completed": {
+    //       color: "pink",
+    //     },
+    //     "&$active": {
+    //       color: "red",
+    //     },
+    //   },
+    // },
+  },
   palette: {
     primary: {
       main: "#fa7f38",
@@ -11,7 +30,7 @@ const theme = createMuiTheme({
   },
 });
 
-const initialState: IState = {
+const initialState2: any = {
   shifts: [],
   employees: [],
   positions: [],
@@ -29,7 +48,7 @@ const reducer = (state: IState, action: IAction) => {
     case "ADD_EMPLOYEE":
       return { ...state, employees: [...state.employees, action.payload] };
     case "ADD_ALL_EMPLOYEES":
-      return {...state, employees: action.payload}
+      return { ...state, employees: action.payload };
     case "DELETE_EMPLOYEE":
       return { ...state, employees: action.payload };
     case "EDIT_EMPLOYEE":

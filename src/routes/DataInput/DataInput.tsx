@@ -1,84 +1,51 @@
 import React from "react";
 import { Store } from "../../utils/Store";
+import { makeStyles, createStyles, Theme } from "@material-ui/core/styles";
+import Paper from "@material-ui/core/Paper";
+import Grid from "@material-ui/core/Grid";
+import DataInputMenuLeft from "./DataInputMenuLeft";
+import { DataInputWrapper, DataInputFields } from "../../App.styles";
 import DataInputLogic from "./DataInputLogic";
-
-import InputCalendarMonth from "./components/InputCalendarMonth/InputCalendarMonth";
-import InputEmployees from "./components/InputEmployees/InputEmployees/InputEmployees";
-import InputPositions from "./components/InputPositions/InputPositions/InputPositions";
-import InputShifts from "./components/InputShifts/InputShifts";
-import UploadAvalability from "./components/InputEmployees/UploadAvailability/UploadAvalability";
-import UploadEmployees from "./components/InputEmployees/UploadEmployees/UploadEmployees";
-import EmployeeList from "./components/InputEmployees/EmployeeList/EmployeeList";
-import PositionsList from "./components/InputPositions/PositionsList/PositionsList";
-import DataInputMenu from "./DataInputMenu";
-import {
-  DataInputNav,
-  DataInputWrapper,
-  DataInputFields,
-} from "../../App.styles";
 function DataInput() {
   const { state, dispatch } = React.useContext(Store);
-  const { changeTab } = DataInputLogic();
+  const { renderSwitch } = DataInputLogic();
 
-  const renderSwitch = (tab: string) => {
-    switch (state.dataInputTab) {
-      case "Positions":
-        return (
-          <div>
-            <h2>Input Positions</h2>
-            <InputPositions />
-            <PositionsList />
-          </div>
-        );
-      case "Shifts":
-        return (
-          <div>
-            <h2>Input Shifts</h2>
-            <InputShifts />
-          </div>
-        );
-      case "Employees":
-        return (
-          <div>
-            <UploadEmployees/>
-            <InputEmployees />
-            <EmployeeList />
-          </div>
-        );
-      case "Availability":
-        return (
-          <div>
-            <UploadAvalability />
-          </div>
-        );
-      case "Month":
-        return (
-          <div>
-            <h2>Input Calendar Month</h2>
+  const useStyles = makeStyles((theme: Theme) =>
+    createStyles({
+      root: {
+        flexGrow: 1,
+      },
+      paper: {
+        padding: theme.spacing(2),
+        textAlign: "center",
+        color: theme.palette.text.secondary,
+      },
+    })
+  );
 
-            <InputCalendarMonth />
-          </div>
-        );
-      default:
-        return (
-          <div>
-            <h2>Input Positions</h2>
-            <InputPositions />
-            <PositionsList />
-          </div>
-        );
-    }
-  };
+  const classes = useStyles();
 
   return (
-    
-    <DataInputWrapper>
-      <DataInputNav>
-        <DataInputMenu />
-      </DataInputNav>
-      <DataInputFields>{renderSwitch(state.dataInputTab)}</DataInputFields>
-    </DataInputWrapper>
-    
+    <div>
+      <div className={classes.root}>
+        <Grid container spacing={3}>
+          <Grid item xs={3}>
+            <Paper className={classes.paper}>
+              <DataInputMenuLeft />
+            </Paper>
+          </Grid>
+          <Grid item xs={9}>
+            <Paper className={classes.paper}>
+              <DataInputWrapper>
+                <DataInputFields>
+                  {renderSwitch(state.dataInputTab)}
+                </DataInputFields>
+              </DataInputWrapper>
+            </Paper>
+          </Grid>
+        </Grid>
+      </div>
+    </div>
   );
 }
 
