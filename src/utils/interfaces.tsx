@@ -17,6 +17,9 @@ export interface IState {
   employees: Array<any>
   positions: Array<any>
   calendarMonth: Array<any>
+  availability: Array<any>
+  bulkPositions: Array<any>
+  dataInputTab: Array<any>
 }
 
 export interface IEmployee {

@@ -1,37 +1,21 @@
 Backlog:
-
-- 
-- Edit created Employees Names and Working days
- 
-
-
-
+- CalenderObject with each Name and availability per daY
 
 
 Stack:
       Backend:
       - Node.js
       - Express
-      - MongoDB || dynamoDB
-      - AWS hosting?
+      - MongoDB || dynamoDB || postgreSql
+      - AWS hosting? 
 
       FE:
-      - GraphQL / Apollo 
       - React
       - Typescript
+      - GraphQL / Apollo 
 
 Goals:
 - input: csv with names, availabilities
 - input shifts, "must", "optional"
 - output: ready dienstplan, csv export
 - Make Account, save dienstplaene
-
-
-
-
-DONE: 
-- Global State via ContextAPI // Store
-
-
-
-

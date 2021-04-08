@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { IShift, IAppProps } from "../utils/interfaces";
-import { Store } from "../utils/Store";
+import { IShift, IAppProps } from "../../../../utils/interfaces";
+import { Store } from "../../../../utils/Store";
 
 const InputShifts: React.FC = () => {
   const { state, dispatch } = React.useContext(Store);
@@ -9,6 +9,7 @@ const InputShifts: React.FC = () => {
   const [necesarry, setNecesarry] = useState<boolean>(false);
   const [weekend, setWeekend] = useState<boolean>(false);
   const [shifts, setShifts] = useState<IShift[]>([]);
+  const [position, setPosition] = useState("");
 
   const handleClick = (name: string) => {
     switch (name) {
@@ -48,7 +49,25 @@ const InputShifts: React.FC = () => {
   return (
     <div>
       <h2>Input all Shifts that need to be staffed</h2>
+
+      <br />
+
       <form onSubmit={(e) => addShift(e)}>
+        <span>Position</span>
+        <select
+          onChange={(e) => {
+            setPosition(e.target.value);
+          }}
+          value={position}
+        >
+          <option label=" "></option>
+          {state.positions.map((pos: string, i: number) => (
+            <option key={i} value={pos}>
+              {pos}
+            </option>
+          ))}
+        </select>
+        <br />
         <span>Shift Name</span>
         <input
           type="text"

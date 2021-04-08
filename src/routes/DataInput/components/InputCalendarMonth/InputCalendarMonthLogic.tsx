@@ -67,12 +67,18 @@ export const getMonthArr = (month: number, year: number) => {
       isWeekendHolyday = true;
     }
 
+    const date =
+      (day < 10 ? "0" + String(day) + ".": String(day)+".") +
+      (month < 10 ? "0" + String(month) +"." : String(month)+ ".") +
+      String(year).substring(2, 4);
+
     let Obj = {
       day,
       month,
       year,
       weekdayString,
       isWeekendHolyday: isWeekendHolyday,
+      date
     };
 
     monthArr.push(Obj);

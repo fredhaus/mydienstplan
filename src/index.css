@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+}
+
 .calenderButton {
   margin: 5px;
 }
@@ -10,11 +14,33 @@
 .calenderButtonWrapper {
   display: inline-block;
   text-align: center;
+}
 
-} 
-
-.calenderButtonWrapperSpan  {
+.calenderButtonWrapperSpan {
   float: right;
-  color: red
+  color: red;
+}
 
+.EmployeeList{
+  width: 80%;
+  
+}
+
+.EmployeeCard {
+  display: flex;
+  border-style: groove;
+  border-color: lightsteelblue;
+
+}
+
+span.name{
+  color: darkslategray;
+  width: 20%
+}
+
+span.workdays{
+  width: 10%
+}
+span.positions{
+  width: 40%
 }

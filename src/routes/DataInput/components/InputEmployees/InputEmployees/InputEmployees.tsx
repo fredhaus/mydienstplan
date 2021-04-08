@@ -1,6 +1,6 @@
 import React, { FC, useState } from "react";
-import { IEmployee } from "../utils/interfaces";
-import { Store } from "../utils/Store";
+import { IEmployee } from "../../../../../utils/interfaces";
+import { Store } from "../../../../../utils/Store";
 
 import "react-dropdown/style.css";
 
@@ -81,7 +81,6 @@ const InputEmployees: FC = (props: Object) => {
       </div>
       <div>
         <span>Positions </span>
-
         <span>
           {allJobPositions.map((pos, i) => (
             <div key={i}>{pos}</div>
@@ -113,33 +112,6 @@ const InputEmployees: FC = (props: Object) => {
       >
         Add Employee
       </button>
-
-      <h3>Employees</h3>
-
-      <div>
-        <ul>
-          {state.employees.map((employee: any, i: number) => (
-            <li key={i}>
-              <button
-                onClick={() => {
-                  deleteEmployee(i);
-                }}
-              >
-                {" "}
-                X{" "}
-              </button>{" "}
-              <button onClick={() => editEmployee(i)}> Edit </button>{" "}
-              {employee.fName +
-                " " +
-                employee.lName +
-                " - " +
-                employee.workingDays +
-                " days - " +
-                employee.allJobPositions.map((elem: string) => " " + elem)}
-            </li>
-          ))}
-        </ul>
-      </div>
     </div>
   );
 };

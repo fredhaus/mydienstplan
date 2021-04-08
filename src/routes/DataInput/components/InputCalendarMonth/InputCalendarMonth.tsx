@@ -1,17 +1,18 @@
 import React, { useState, useEffect } from "react";
-import { Store } from "../utils/Store";
+import { Store } from "../../../../utils/Store";
 import {
   getMonthArr,
   monthChoiceArr,
   yearChoiceArr,
-} from "../utils/CalendarActions";
+} from "./InputCalendarMonthLogic";
 
 interface ObjShape {
   day: number;
   month: number;
   year: number;
   weekdayString: string;
-  isWeekendHolyday: boolean,
+  isWeekendHolyday: boolean;
+  dateString: string
 }
 
 function CalendarMonth() {
@@ -22,12 +23,7 @@ function CalendarMonth() {
   });
   const [selectYear, setSelectYear] = useState<any>(2021);
 
-const [moin, setMoin] = useState({
-  name: "Fred",
-  jo: 13
-})
-
-  const [monthArr, setMonthArr] = useState<ObjShape[]>(
+  const [monthArr, setMonthArr] = useState<any>(
     getMonthArr(selectMonth.monthNr, selectYear)
   );
   const [submit, setSubmit] = useState({
@@ -42,9 +38,18 @@ const [moin, setMoin] = useState({
   }, [selectYear, selectMonth]);
 
   const submitCalendar = () => {
+
+    
+
+    // const newPayload = {
+    //   weekdayString: monthArr.weekdayString,
+    //   isWeekendHolyday: monthArr.isWeekendHolyday,
+    //   date: date,
+    // };
+
     return dispatch({
       type: "ADD_CALENDERMONTH",
-      payload: monthArr,
+      payload: monthArr ,
     });
   };
 
@@ -87,7 +92,9 @@ const [moin, setMoin] = useState({
             {elem}
           </option>
         ))}
-      </select><br/><br/>
+      </select>
+      <br />
+      <br />
       {/* <button
               onClick={() => setSubmit({
                 ...submit,
@@ -121,7 +128,6 @@ const [moin, setMoin] = useState({
                 </span>
               );
             })}
-
           </div>
           <br />
           <br />
