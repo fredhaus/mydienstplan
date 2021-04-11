@@ -39,7 +39,7 @@ function getStepContent(stepIndex: number) {
     case 0:
       return <DataInput />;
     case 1:
-      return <CheckResults/>;
+      return <CheckResults />;
     case 2:
       return <DownloadData/>
     default:
@@ -76,14 +76,14 @@ export default function HorizontalLabelPositionBelowStepper() {
       <div>
         {activeStep === steps.length ? (
           <div>
-            <Typography className={classes.instructions}>
+            <Typography className={classes.instructions} component={'span'}>
               All steps completed
             </Typography>
             <Button onClick={handleReset}>Reset</Button>
           </div>
         ) : (
           <div>
-            <Typography className={classes.instructions}>
+            <Typography className={classes.instructions} component={'span'}>
               {getStepContent(activeStep)}
             </Typography>
             <FlexRowCentered>

@@ -7,32 +7,29 @@ const InputShifts: React.FC = () => {
 
   const [shiftName, setShiftName] = useState<string>("");
   const [necesarry, setNecesarry] = useState<boolean>(false);
-  const [weekend, setWeekend] = useState<boolean>(false);
   const [shifts, setShifts] = useState<IShift[]>([]);
   const [position, setPosition] = useState("");
-  
+  const [ELW, setELW] = useState("");
 
   const handleClick = (name: string) => {
     switch (name) {
       case "necesarry":
         return setNecesarry(!necesarry);
-      case "weekend":
-        return setWeekend(!weekend);
     }
   };
 
   const addShift = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    
+
     dispatch({
       type: "ADD_SHIFT",
-      payload: { shiftName, necesarry, weekend, position },
+      payload: { shiftName, necesarry, position, ELW },
     });
     setShifts((prev) => [...prev, { shiftName, necesarry }]);
     setShiftName("");
     setNecesarry(false);
-    setWeekend(false);
-    setPosition("")
+
+    setPosition("");
   };
 
   const deleteShift = (index: number) => {
@@ -50,9 +47,7 @@ const InputShifts: React.FC = () => {
 
   return (
     <div>
-      <h2>Input all Shifts that need to be staffed</h2>
-
-      <br />
+      <h5>Input all Shifts that need to be staffed</h5>
 
       <form onSubmit={(e) => addShift(e)}>
         <span>Position</span>
@@ -86,13 +81,31 @@ const InputShifts: React.FC = () => {
           onChange={(e) => handleClick(e.target.name)}
         />
         <br />
-        <span>Weekend / Holiday</span>
-        <input
-          type="checkbox"
-          name="weekend"
-          checked={weekend}
-          onChange={(e) => handleClick(e.target.name)}
-        />
+        <div>
+          <span>Early</span>
+          <input
+            type="radio"
+            name="early"
+            checked={ELW === "early"}
+            onChange={(e) => setELW("early")}
+          />
+
+          <span>Late</span>
+          <input
+            type="radio"
+            name="late"
+            checked={ELW === "late"}
+            onChange={(e) => setELW("late")}
+          />
+
+          <span>Weekend / Holiday</span>
+          <input
+            type="radio"
+            name="weekend"
+            checked={ELW === "weekend"}
+            onChange={(e) => setELW("weekend")}
+          />
+        </div>
         <br />
         <br />
         <button type="submit">Add Shift</button>

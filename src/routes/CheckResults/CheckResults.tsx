@@ -1,6 +1,11 @@
 import React, { useState, useContext } from "react";
 import { Store } from "../../utils/Store";
 
+const ShiftTranslator: any = {
+  "Kann Früh": "early",
+  "Kann Spät": "late",
+};
+
 function CheckResults() {
   const { state, dispatch } = useContext(Store);
 
@@ -14,15 +19,13 @@ function CheckResults() {
     for (let index = 0; index < state.shifts.length; index++) {
       const shift = state.shifts[index];
       shift.necesarry
-        ? shift.weekend
+        ? shift.ELW === "weekend"
           ? necesarryWeekendShifts.push(shift)
           : necesarryShifts.push(shift)
-        : shift.weekend
+        : shift.ELW === "weekend"
         ? unnecesarryWeekendShifts.push(shift)
         : unnecesarryShifts.push(shift);
     }
-
-console.log("necesarryShifts", necesarryShifts)
 
     return {
       necesarryShifts,
@@ -33,7 +36,7 @@ console.log("necesarryShifts", necesarryShifts)
   };
 
   // Get all possible employees for shift.position
-  const getWorkers = (position: string) => {
+  const getPositionWorkers = (position: string) => {
     const possibleWorkers: any = [];
     for (let index = 0; index < state.employees.length; index++) {
       const employee = state.employees[index];
@@ -44,27 +47,87 @@ console.log("necesarryShifts", necesarryShifts)
     return possibleWorkers;
   };
 
-  // Create Roster
+  const getShiftStaffing = (day: any, shifts: any, Roster: any) => {
+    let shiftStaffing: any = [];
+    let dayDateString = day.date;
+    for (let index = 0; index < shifts.length; index++) {
+      const shift = shifts[index];
+
+      const possibleWorkers = getPositionWorkers(shift.position);
+      const possibleWorkersAvailable = [];
+
+      console.log("dayDateString", dayDateString);
+      for (let index = 0; index < possibleWorkers.length; index++) {
+        const possibleWorkerName = possibleWorkers[index].name;
+        const workerAvailableString =
+          state.availability[dayDateString][index].availability;
+
+        if (workerAvailableString !== "Kann nicht" && workerAvailableString !== "" && workerAvailableString !== "Urlaub") {
+          if (
+            ShiftTranslator.workerAvailableString === shift.ELW ||
+            shift.ELW === "weekend"
+          ) {
+            console.log("possibleWorkerName", possibleWorkerName);
+            console.log("workerAvailableString", workerAvailableString);
+            console.log("__________");
+          }
+        }
+      }
+
+      
+
+      shiftStaffing.push({ possibleWorkers, shift });
+      console.log("______________________________")
+    }
+    return shiftStaffing;
+  };
+
   const createRoster = () => {
-    const Roster = [];
+    const Roster: Array<any> = [];
     const {
       necesarryShifts,
       unnecesarryShifts,
       necesarryWeekendShifts,
       unnecesarryWeekendShifts,
     } = sortShifts();
-    
+
     for (let index = 0; index < state.calendarMonth.length; index++) {
       const day = state.calendarMonth[index];
-      let shiftStaffing: any = [];
-      for (let index = 0; index < necesarryShifts.length; index++) {
-        const shift = necesarryShifts[index];
-        const possibleWorkers = getWorkers(shift.position);
-        shiftStaffing = { possibleWorkers, shift };
-      }
-      Roster.push({ day, shiftStaffing });
+      getShiftStaffing(day, necesarryWeekendShifts, Roster);
+
+      // Roster.push(
+      //   day.isWeekendHoliday
+      //     ? {
+      //         date: day.date,
+      //         necesarryShiftStaffing: getShiftStaffing(
+      //           day,
+      //           necesarryWeekendShifts,
+      //           Roster
+      //         ),
+
+      //         unnecesarryShiftStaffing: getShiftStaffing(
+      //           day,
+      //           unnecesarryWeekendShifts,
+      //           Roster
+      //         ),
+      //       }
+      //     : {
+      //         date: day.date,
+      //         necesarryShiftStaffing: getShiftStaffing(
+      //           day,
+      //           necesarryShifts,
+      //           Roster
+      //         ),
+      //         unnecesarryShiftStaffing: getShiftStaffing(
+      //           day,
+      //           unnecesarryShifts,
+      //           Roster
+      //         ),
+      //       }
+      // );
     }
-    console.log(Roster);
+
+    console.log("Roster", Roster);
     return Roster;
   };
 
@@ -75,19 +138,11 @@ console.log("necesarryShifts", necesarryShifts)
       <br />
       <button onClick={sortShifts}>getNecesarryShifts</button>
       <ul>
-        {createRoster().map((elem: any) => (
-          <li>
+        {createRoster().map((elem: any, i: number) => (
+          <li key={i}>
             <b>DATE:</b>
-            {elem.day.day} . {elem.day.month} . {elem.day.year}
+            {elem.date}
             <br />
-            <b>SHIFT NAME:</b>
-            {elem.shiftStaffing.shift.shiftName}
-            <br />
-            <b>POSSIBLE WORKERS</b>
-            <br />
-            {elem.shiftStaffing.possibleWorkers.map((element: any) => (
-              <div>{element.name}</div>
-            ))}
           </li>
         ))}
       </ul>

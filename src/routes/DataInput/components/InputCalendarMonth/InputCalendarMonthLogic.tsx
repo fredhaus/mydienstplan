@@ -8,7 +8,7 @@ export const weekdayObj: Record<string, string> = {
   "0": "Sun",
 };
 
-export const monthChoiceArr: {name: string, monthNr: number}[] = [
+export const monthChoiceArr: { name: string; monthNr: number }[] = [
   { name: "Jan", monthNr: 1 },
   { name: "Feb", monthNr: 2 },
   { name: "Mar", monthNr: 3 },
@@ -35,7 +35,8 @@ export const yearChoiceArr = [
   2030,
 ];
 
-const daysPerMonths = (year: number, month: number) => new Date(year, month, 0).getDate();
+const daysPerMonths = (year: number, month: number) =>
+  new Date(year, month, 0).getDate();
 const getWeekDayString = (year: number, month: number, day: number) => {
   const weekDay = new Date(year, month, 0 - daysPerMonths(year, month) + day)
     .getDay()
@@ -51,25 +52,19 @@ const getDaysPerMonthsArr = (daysPerMonths: number) => {
 };
 
 export const getMonthArr = (month: number, year: number) => {
-  const daysPerMonth = daysPerMonths(year, month)
-  const daysPerMonthArr = getDaysPerMonthsArr(daysPerMonth)
+  const daysPerMonth = daysPerMonths(year, month);
+  const daysPerMonthArr = getDaysPerMonthsArr(daysPerMonth);
 
   const monthArr: any = [];
-  for (
-    let index: number = 0;
-    index < daysPerMonthArr.length;
-    index++
-  ) {
+  for (let index: number = 0; index < daysPerMonthArr.length; index++) {
     const day = daysPerMonthArr[index];
     const weekdayString = getWeekDayString(year, month, day);
-    let isWeekendHolyday = false;
-    if (weekdayString === "Sat" || weekdayString === "Sun") {
-      isWeekendHolyday = true;
-    }
+    let isWeekendHoliday =
+      weekdayString === "Sat" || weekdayString === "Sun" ? true : false;
 
     const date =
-      (day < 10 ? "0" + String(day) + ".": String(day)+".") +
-      (month < 10 ? "0" + String(month) +"." : String(month)+ ".") +
+      (day < 10 ? "0" + String(day) + "." : String(day) + ".") +
+      (month < 10 ? "0" + String(month) + "." : String(month) + ".") +
       String(year).substring(2, 4);
 
     let Obj = {
@@ -77,12 +72,12 @@ export const getMonthArr = (month: number, year: number) => {
       month,
       year,
       weekdayString,
-      isWeekendHolyday: isWeekendHolyday,
-      date
+      isWeekendHoliday: isWeekendHoliday,
+      date,
     };
 
     monthArr.push(Obj);
   }
-  
+
   return monthArr;
 };

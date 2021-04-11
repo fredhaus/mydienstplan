@@ -3,20 +3,38 @@ export const ExampleInput = {
     {
       shiftName: "Bimi früh",
       necesarry: true,
-      weekend: false,
+      ELW: "early",
       position: "Bimi",
     },
     {
       shiftName: "Bimi spät",
       necesarry: true,
-      weekend: false,
+      ELW: "late",
       position: "Bimi",
     },
     {
       shiftName: "Bimi Wochenende",
       necesarry: true,
-      weekend: true,
+      ELW: "weekend",
       position: "Bimi",
+    },
+    {
+      shiftName: "AudioRunner früh",
+      necesarry: false,
+      ELW: "early",
+      position: "AudioRunner",
+    },
+    {
+      shiftName: "AudioRunner spät",
+      necesarry: false,
+      ELW: "late",
+      position: "AudioRunner",
+    },
+    {
+      shiftName: "AudioRunner Wochenende",
+      necesarry: false,
+      ELW: "weekend",
+      position: "AudioRunner",
     },
   ],
   employees: [
@@ -165,7 +183,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Sat",
-      isWeekendHolyday: true,
+      isWeekendHoliday: true,
       date: "01.05.21",
     },
     {
@@ -173,7 +191,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Sun",
-      isWeekendHolyday: true,
+      isWeekendHoliday: true,
       date: "02.05.21",
     },
     {
@@ -181,7 +199,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Mon",
-      isWeekendHolyday: false,
+      isWeekendHoliday: false,
       date: "03.05.21",
     },
     {
@@ -189,15 +207,15 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Tue",
-      isWeekendHolyday: false,
-      date: "04.05.21",
+      isWeekendHoliday: false,
+      date: "05.05.21",
     },
     {
       day: 5,
       month: 5,
       year: 2021,
       weekdayString: "Wed",
-      isWeekendHolyday: false,
+      isWeekendHoliday: false,
       date: "05.05.21",
     },
     {
@@ -205,7 +223,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Thur",
-      isWeekendHolyday: false,
+      isWeekendHoliday: false,
       date: "06.05.21",
     },
     {
@@ -213,7 +231,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Fri",
-      isWeekendHolyday: false,
+      isWeekendHoliday: false,
       date: "07.05.21",
     },
     {
@@ -221,7 +239,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Sat",
-      isWeekendHolyday: true,
+      isWeekendHoliday: true,
       date: "08.05.21",
     },
     {
@@ -229,7 +247,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Sun",
-      isWeekendHolyday: true,
+      isWeekendHoliday: true,
       date: "09.05.21",
     },
     {
@@ -237,7 +255,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Mon",
-      isWeekendHolyday: false,
+      isWeekendHoliday: false,
       date: "10.05.21",
     },
     {
@@ -245,7 +263,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Tue",
-      isWeekendHolyday: false,
+      isWeekendHoliday: false,
       date: "11.05.21",
     },
     {
@@ -253,7 +271,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Wed",
-      isWeekendHolyday: false,
+      isWeekendHoliday: false,
       date: "12.05.21",
     },
     {
@@ -261,7 +279,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Thur",
-      isWeekendHolyday: false,
+      isWeekendHoliday: false,
       date: "13.05.21",
     },
     {
@@ -269,7 +287,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Fri",
-      isWeekendHolyday: false,
+      isWeekendHoliday: false,
       date: "14.05.21",
     },
     {
@@ -277,7 +295,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Sat",
-      isWeekendHolyday: true,
+      isWeekendHoliday: true,
       date: "15.05.21",
     },
     {
@@ -285,7 +303,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Sun",
-      isWeekendHolyday: true,
+      isWeekendHoliday: true,
       date: "16.05.21",
     },
     {
@@ -293,7 +311,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Mon",
-      isWeekendHolyday: false,
+      isWeekendHoliday: false,
       date: "17.05.21",
     },
     {
@@ -301,7 +319,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Tue",
-      isWeekendHolyday: false,
+      isWeekendHoliday: false,
       date: "18.05.21",
     },
     {
@@ -309,7 +327,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Wed",
-      isWeekendHolyday: false,
+      isWeekendHoliday: false,
       date: "19.05.21",
     },
     {
@@ -317,7 +335,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Thur",
-      isWeekendHolyday: false,
+      isWeekendHoliday: false,
       date: "20.05.21",
     },
     {
@@ -325,7 +343,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Fri",
-      isWeekendHolyday: false,
+      isWeekendHoliday: false,
       date: "21.05.21",
     },
     {
@@ -333,7 +351,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Sat",
-      isWeekendHolyday: true,
+      isWeekendHoliday: true,
       date: "22.05.21",
     },
     {
@@ -341,7 +359,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Sun",
-      isWeekendHolyday: true,
+      isWeekendHoliday: true,
       date: "23.05.21",
     },
     {
@@ -349,7 +367,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Mon",
-      isWeekendHolyday: false,
+      isWeekendHoliday: false,
       date: "24.05.21",
     },
     {
@@ -357,7 +375,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Tue",
-      isWeekendHolyday: false,
+      isWeekendHoliday: false,
       date: "25.05.21",
     },
     {
@@ -365,7 +383,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Wed",
-      isWeekendHolyday: false,
+      isWeekendHoliday: false,
       date: "26.05.21",
     },
     {
@@ -373,7 +391,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Thur",
-      isWeekendHolyday: false,
+      isWeekendHoliday: false,
       date: "27.05.21",
     },
     {
@@ -381,7 +399,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Fri",
-      isWeekendHolyday: false,
+      isWeekendHoliday: false,
       date: "28.05.21",
     },
     {
@@ -389,7 +407,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Sat",
-      isWeekendHolyday: true,
+      isWeekendHoliday: true,
       date: "29.05.21",
     },
     {
@@ -397,7 +415,7 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Sun",
-      isWeekendHolyday: true,
+      isWeekendHoliday: true,
       date: "30.05.21",
     },
     {
@@ -405,49 +423,46 @@ export const ExampleInput = {
       month: 5,
       year: 2021,
       weekdayString: "Mon",
-      isWeekendHolyday: false,
+      isWeekendHoliday: false,
       date: "31.05.21",
     },
   ],
   availability: {
     
-    "01.04.21": [
+    "01.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "Kann Früh" },
-      { name: "Christian Daubitz", availability: "" },
-      { name: "Fred Gneckow", availability: "" },
-      { name: "Oliver Löytved-Hardegg", availability: "" },
+      { name: "Christian Daubitz", availability: "Kann nicht" },
+      { name: "Fred Gneckow", availability: "Kann nicht" },
+      { name: "Oliver Löytved-Hardegg", availability: "Kann nicht" },
       { name: "Philipp Hill", availability: "Kann Früh" },
-      { name: "Sascha Wöpke", availability: "" },
-      { name: "Andy Eichhorst", availability: "" },
-      { name: "Christian Friedrich", availability: "" },
-      { name: "Christian Würfel", availability: "" },
-      { name: "Claudio Bader", availability: "" },
+      { name: "Sascha Wöpke", availability: "Kann nicht" },
+      { name: "Andy Eichhorst", availability: "Kann nicht" },
+      { name: "Christian Friedrich", availability: "Kann nicht" },
+      { name: "Christian Würfel", availability: "Kann nicht" },
+      { name: "Claudio Bader", availability: "Kann nicht" },
       { name: "Daniel Matz", availability: "Urlaub" },
-      { name: "Danny Weber", availability: "" },
+      { name: "Danny Weber", availability: "Kann nicht" },
       { name: "Enrico Wolf", availability: "Kann Früh" },
-      { name: "Flo Mathy", availability: "" },
-      { name: "Freddy Hausburg", availability: "" },
-      { name: "Ivo Grosche", availability: "" },
+      { name: "Flo Mathy", availability: "Kann nicht" },
+      { name: "Freddy Hausburg", availability: "Kann nicht" },
+      { name: "Ivo Grosche", availability: "Kann nicht" },
       { name: "Jean Djaman", availability: "Kann Früh" },
-      { name: "Leopold Dreyer", availability: "" },
-      { name: "Luis Meißner", availability: "" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "" },
-      { name: "Matthias Gubisch", availability: "" },
+      { name: "Leopold Dreyer", availability: "Kann nicht" },
+      { name: "Luis Meißner", availability: "Kann nicht" },
+      { name: "Mark Papworth", availability: "Kann nicht" },
+      { name: "Martin Glogowski", availability: "Kann nicht" },
+      { name: "Matthias Gubisch", availability: "Kann nicht" },
       { name: "Mike Einhorn", availability: "Urlaub" },
       { name: "Moritz Zuchantke", availability: "Kann Früh" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
+      { name: "Philipp Drube", availability: "Kann nicht" },
+      { name: "Ray Kajioka", availability: "Kann nicht" },
+      { name: "Robin Gansler", availability: "Kann nicht" },
       { name: "Steven Daumann", availability: "Kann Früh" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "Urlaub" },
+      { name: "Torsten Blaufuss", availability: "Kann nicht" },
+      { name: "Uli Wiesner", availability: "Kann nicht" },
+      { name: "Yves Kasten", availability: "Kann nicht" }
     ],
-    "02.04.21": [
+    "02.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "Kann nicht" },
       { name: "Fred Gneckow", availability: "Kann Früh" },
@@ -483,7 +498,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "03.04.21": [
+    "03.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "Urlaub" },
       { name: "Fred Gneckow", availability: "" },
@@ -519,7 +534,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "04.04.21": [
+    "05.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "" },
       { name: "Fred Gneckow", availability: "" },
@@ -555,7 +570,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "Urlaub" },
     ],
-    "05.04.21": [
+    "05.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "Kann" },
       { name: "Fred Gneckow", availability: "" },
@@ -591,7 +606,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "06.04.21": [
+    "06.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "" },
       { name: "Fred Gneckow", availability: "Kann Früh" },
@@ -627,7 +642,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "07.04.21": [
+    "07.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "" },
       { name: "Fred Gneckow", availability: "" },
@@ -663,7 +678,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "08.04.21": [
+    "08.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "" },
       { name: "Fred Gneckow", availability: "" },
@@ -699,7 +714,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "09.04.21": [
+    "09.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "" },
       { name: "Fred Gneckow", availability: "" },
@@ -735,7 +750,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "10.04.21": [
+    "10.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "" },
       { name: "Fred Gneckow", availability: "" },
@@ -771,7 +786,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "11.04.21": [
+    "11.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "" },
       { name: "Fred Gneckow", availability: "" },
@@ -807,7 +822,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "12.04.21": [
+    "12.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "" },
       { name: "Fred Gneckow", availability: "Kann Früh" },
@@ -843,7 +858,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "13.04.21": [
+    "13.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "" },
       { name: "Fred Gneckow", availability: "" },
@@ -879,7 +894,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "14.04.21": [
+    "14.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "" },
       { name: "Fred Gneckow", availability: "" },
@@ -915,7 +930,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "15.04.21": [
+    "15.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "" },
       { name: "Fred Gneckow", availability: "" },
@@ -951,7 +966,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "16.04.21": [
+    "16.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "" },
       { name: "Fred Gneckow", availability: "" },
@@ -987,7 +1002,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "17.04.21": [
+    "17.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "" },
       { name: "Fred Gneckow", availability: "" },
@@ -1023,7 +1038,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "18.04.21": [
+    "18.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "" },
       { name: "Fred Gneckow", availability: "" },
@@ -1059,7 +1074,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "19.04.21": [
+    "19.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "" },
       { name: "Fred Gneckow", availability: "Kann Früh" },
@@ -1095,7 +1110,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "20.04.21": [
+    "20.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "" },
       { name: "Fred Gneckow", availability: "" },
@@ -1131,7 +1146,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "21.04.21": [
+    "21.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "" },
       { name: "Fred Gneckow", availability: "" },
@@ -1167,7 +1182,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "22.04.21": [
+    "22.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "" },
       { name: "Fred Gneckow", availability: "" },
@@ -1203,7 +1218,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "23.04.21": [
+    "23.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "Kann Früh" },
       { name: "Fred Gneckow", availability: "" },
@@ -1239,7 +1254,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "24.04.21": [
+    "24.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "" },
       { name: "Fred Gneckow", availability: "Kann nicht" },
@@ -1275,7 +1290,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "25.04.21": [
+    "25.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "" },
       { name: "Fred Gneckow", availability: "Urlaub" },
@@ -1311,7 +1326,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "26.04.21": [
+    "26.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "" },
       { name: "Fred Gneckow", availability: "" },
@@ -1347,7 +1362,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "27.04.21": [
+    "27.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "" },
       { name: "Fred Gneckow", availability: "" },
@@ -1383,7 +1398,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "28.04.21": [
+    "28.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "" },
       { name: "Fred Gneckow", availability: "" },
@@ -1419,7 +1434,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "29.04.21": [
+    "29.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "" },
       { name: "Fred Gneckow", availability: "" },
@@ -1455,7 +1470,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "30.04.21": [
+    "30.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "" },
       { name: "Christian Daubitz", availability: "" },
       { name: "Fred Gneckow", availability: "" },
@@ -1491,7 +1506,7 @@ export const ExampleInput = {
       { name: "", availability: "" },
       { name: "", availability: "" },
     ],
-    "31.XX.21": [
+    "31.05.21": [
       { name: "Alpay Yeşildağlar ", availability: "\r" },
       { name: "Christian Daubitz", availability: "\r" },
       { name: "Fred Gneckow", availability: "\r" },
