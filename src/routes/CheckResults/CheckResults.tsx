@@ -57,27 +57,32 @@ function CheckResults() {
       const possibleWorkersAvailable = [];
 
       console.log("dayDateString", dayDateString);
+      
       for (let index = 0; index < possibleWorkers.length; index++) {
         const possibleWorkerName = possibleWorkers[index].name;
+        const availabilityStatus = state.availability[dayDateString].find((x:any) => x.name === possibleWorkerName)
+
         const workerAvailableString =
           state.availability[dayDateString][index].availability;
 
-        if (workerAvailableString !== "Kann nicht" && workerAvailableString !== "" && workerAvailableString !== "Urlaub") {
-          if (
-            ShiftTranslator.workerAvailableString === shift.ELW ||
-            shift.ELW === "weekend"
+        if (
+          availabilityStatus.availability !== "Kann nicht"
+          
           ) {
-            console.log("possibleWorkerName", possibleWorkerName);
-            console.log("workerAvailableString", workerAvailableString);
-            console.log("__________");
-          }
+            
+            if (
+              ShiftTranslator.availabilityStatus === shift.ELW ||
+              shift.ELW === "weekend"
+            ) {
+              console.log("possibleWorkerName", possibleWorkerName);
+              console.log("availabilityStatus", availabilityStatus);
+              console.log("__________");
+            }
         }
       }
 
-      
-
       shiftStaffing.push({ possibleWorkers, shift });
-      console.log("______________________________")
+      console.log("______________________________");
     }
     return shiftStaffing;
   };

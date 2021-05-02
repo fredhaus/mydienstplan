@@ -430,1119 +430,3914 @@ export const ExampleInput = {
   availability: {
     
     "01.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "Kann Früh" },
-      { name: "Christian Daubitz", availability: "Kann nicht" },
-      { name: "Fred Gneckow", availability: "Kann nicht" },
-      { name: "Oliver Löytved-Hardegg", availability: "Kann nicht" },
-      { name: "Philipp Hill", availability: "Kann Früh" },
-      { name: "Sascha Wöpke", availability: "Kann nicht" },
-      { name: "Andy Eichhorst", availability: "Kann nicht" },
-      { name: "Christian Friedrich", availability: "Kann nicht" },
-      { name: "Christian Würfel", availability: "Kann nicht" },
-      { name: "Claudio Bader", availability: "Kann nicht" },
-      { name: "Daniel Matz", availability: "Urlaub" },
-      { name: "Danny Weber", availability: "Kann nicht" },
-      { name: "Enrico Wolf", availability: "Kann Früh" },
-      { name: "Flo Mathy", availability: "Kann nicht" },
-      { name: "Freddy Hausburg", availability: "Kann nicht" },
-      { name: "Ivo Grosche", availability: "Kann nicht" },
-      { name: "Jean Djaman", availability: "Kann Früh" },
-      { name: "Leopold Dreyer", availability: "Kann nicht" },
-      { name: "Luis Meißner", availability: "Kann nicht" },
-      { name: "Mark Papworth", availability: "Kann nicht" },
-      { name: "Martin Glogowski", availability: "Kann nicht" },
-      { name: "Matthias Gubisch", availability: "Kann nicht" },
-      { name: "Mike Einhorn", availability: "Urlaub" },
-      { name: "Moritz Zuchantke", availability: "Kann Früh" },
-      { name: "Philipp Drube", availability: "Kann nicht" },
-      { name: "Ray Kajioka", availability: "Kann nicht" },
-      { name: "Robin Gansler", availability: "Kann nicht" },
-      { name: "Steven Daumann", availability: "Kann Früh" },
-      { name: "Torsten Blaufuss", availability: "Kann nicht" },
-      { name: "Uli Wiesner", availability: "Kann nicht" },
-      { name: "Yves Kasten", availability: "Kann nicht" }
+        {
+            "name": "Alpay Yeşildağlar",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Technik"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann F"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "02.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "Kann nicht" },
-      { name: "Fred Gneckow", availability: "Kann Früh" },
-      { name: "Oliver Löytved-Hardegg", availability: "" },
-      { name: "Philipp Hill", availability: "" },
-      { name: "Sascha Wöpke", availability: "" },
-      { name: "Andy Eichhorst", availability: "Kann Früh" },
-      { name: "Christian Friedrich", availability: "" },
-      { name: "Christian Würfel", availability: "" },
-      { name: "Claudio Bader", availability: "" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "" },
-      { name: "Enrico Wolf", availability: "" },
-      { name: "Flo Mathy", availability: "Kann nicht" },
-      { name: "Freddy Hausburg", availability: "" },
-      { name: "Ivo Grosche", availability: "Kann Früh" },
-      { name: "Jean Djaman", availability: "" },
-      { name: "Leopold Dreyer", availability: "" },
-      { name: "Luis Meißner", availability: "" },
-      { name: "Mark Papworth", availability: "Kann Früh" },
-      { name: "Martin Glogowski", availability: "" },
-      { name: "Matthias Gubisch", availability: "" },
-      { name: "Mike Einhorn", availability: "" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "Urlaub" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "Kann Früh" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "Kann Früh" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Technik"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann F"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "kann s "
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "03.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "Urlaub" },
-      { name: "Fred Gneckow", availability: "" },
-      { name: "Oliver Löytved-Hardegg", availability: "Kann nicht" },
-      { name: "Philipp Hill", availability: "" },
-      { name: "Sascha Wöpke", availability: "" },
-      { name: "Andy Eichhorst", availability: "" },
-      { name: "Christian Friedrich", availability: "Kann nicht" },
-      { name: "Christian Würfel", availability: "" },
-      { name: "Claudio Bader", availability: "" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "" },
-      { name: "Enrico Wolf", availability: "" },
-      { name: "Flo Mathy", availability: "Urlaub" },
-      { name: "Freddy Hausburg", availability: "" },
-      { name: "Ivo Grosche", availability: "" },
-      { name: "Jean Djaman", availability: "Kann nicht" },
-      { name: "Leopold Dreyer", availability: "Kann Früh" },
-      { name: "Luis Meißner", availability: "" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "" },
-      { name: "Matthias Gubisch", availability: "Kann Früh" },
-      { name: "Mike Einhorn", availability: "" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "" },
-      { name: "Torsten Blaufuss", availability: "Kann nicht" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Technik"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann F"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
+    ],
+    "04.05.21": [
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "F"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Technik"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann F"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "05.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "" },
-      { name: "Fred Gneckow", availability: "" },
-      { name: "Oliver Löytved-Hardegg", availability: "Urlaub" },
-      { name: "Philipp Hill", availability: "" },
-      { name: "Sascha Wöpke", availability: "Kann" },
-      { name: "Andy Eichhorst", availability: "Kann Früh" },
-      { name: "Christian Friedrich", availability: "" },
-      { name: "Christian Würfel", availability: "" },
-      { name: "Claudio Bader", availability: "" },
-      { name: "Daniel Matz", availability: "Kann Früh" },
-      { name: "Danny Weber", availability: "" },
-      { name: "Enrico Wolf", availability: "" },
-      { name: "Flo Mathy", availability: "" },
-      { name: "Freddy Hausburg", availability: "" },
-      { name: "Ivo Grosche", availability: "" },
-      { name: "Jean Djaman", availability: "Urlaub" },
-      { name: "Leopold Dreyer", availability: "" },
-      { name: "Luis Meißner", availability: "Kann nicht" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "" },
-      { name: "Matthias Gubisch", availability: "" },
-      { name: "Mike Einhorn", availability: "Kann nicht" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "" },
-      { name: "Torsten Blaufuss", availability: "Urlaub" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "Kann" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "Urlaub" },
-    ],
-    "05.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "Kann" },
-      { name: "Fred Gneckow", availability: "" },
-      { name: "Oliver Löytved-Hardegg", availability: "" },
-      { name: "Philipp Hill", availability: "" },
-      { name: "Sascha Wöpke", availability: "" },
-      { name: "Andy Eichhorst", availability: "" },
-      { name: "Christian Friedrich", availability: "Kann nicht" },
-      { name: "Christian Würfel", availability: "Kann Früh" },
-      { name: "Claudio Bader", availability: "" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "" },
-      { name: "Enrico Wolf", availability: "Kann Früh" },
-      { name: "Flo Mathy", availability: "" },
-      { name: "Freddy Hausburg", availability: "" },
-      { name: "Ivo Grosche", availability: "" },
-      { name: "Jean Djaman", availability: "" },
-      { name: "Leopold Dreyer", availability: "" },
-      { name: "Luis Meißner", availability: "Urlaub" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "Kann" },
-      { name: "Matthias Gubisch", availability: "" },
-      { name: "Mike Einhorn", availability: "" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "Kann" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "RU"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "RU"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Technik"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "kann spät"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann F"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "06.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "" },
-      { name: "Fred Gneckow", availability: "Kann Früh" },
-      { name: "Oliver Löytved-Hardegg", availability: "" },
-      { name: "Philipp Hill", availability: "" },
-      { name: "Sascha Wöpke", availability: "" },
-      { name: "Andy Eichhorst", availability: "" },
-      { name: "Christian Friedrich", availability: "Urlaub" },
-      { name: "Christian Würfel", availability: "" },
-      { name: "Claudio Bader", availability: "Kann nicht" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "" },
-      { name: "Enrico Wolf", availability: "" },
-      { name: "Flo Mathy", availability: "Kann nicht" },
-      { name: "Freddy Hausburg", availability: "" },
-      { name: "Ivo Grosche", availability: "" },
-      { name: "Jean Djaman", availability: "" },
-      { name: "Leopold Dreyer", availability: "" },
-      { name: "Luis Meißner", availability: "" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "" },
-      { name: "Matthias Gubisch", availability: "" },
-      { name: "Mike Einhorn", availability: "" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "" },
-      { name: "Torsten Blaufuss", availability: "Kann Früh" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "07.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "" },
-      { name: "Fred Gneckow", availability: "" },
-      { name: "Oliver Löytved-Hardegg", availability: "Kann nicht" },
-      { name: "Philipp Hill", availability: "" },
-      { name: "Sascha Wöpke", availability: "" },
-      { name: "Andy Eichhorst", availability: "" },
-      { name: "Christian Friedrich", availability: "" },
-      { name: "Christian Würfel", availability: "" },
-      { name: "Claudio Bader", availability: "Urlaub" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "Kann" },
-      { name: "Enrico Wolf", availability: "" },
-      { name: "Flo Mathy", availability: "" },
-      { name: "Freddy Hausburg", availability: "" },
-      { name: "Ivo Grosche", availability: "" },
-      { name: "Jean Djaman", availability: "" },
-      { name: "Leopold Dreyer", availability: "Kann Früh" },
-      { name: "Luis Meißner", availability: "" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "" },
-      { name: "Matthias Gubisch", availability: "Kann Früh" },
-      { name: "Mike Einhorn", availability: "" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "Urlaub" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "Kann nicht" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "kann "
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "08.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "" },
-      { name: "Fred Gneckow", availability: "" },
-      { name: "Oliver Löytved-Hardegg", availability: "Urlaub" },
-      { name: "Philipp Hill", availability: "" },
-      { name: "Sascha Wöpke", availability: "Kann" },
-      { name: "Andy Eichhorst", availability: "" },
-      { name: "Christian Friedrich", availability: "" },
-      { name: "Christian Würfel", availability: "" },
-      { name: "Claudio Bader", availability: "" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "" },
-      { name: "Enrico Wolf", availability: "" },
-      { name: "Flo Mathy", availability: "" },
-      { name: "Freddy Hausburg", availability: "" },
-      { name: "Ivo Grosche", availability: "" },
-      { name: "Jean Djaman", availability: "" },
-      { name: "Leopold Dreyer", availability: "" },
-      { name: "Luis Meißner", availability: "Kann nicht" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "" },
-      { name: "Matthias Gubisch", availability: "" },
-      { name: "Mike Einhorn", availability: "Kann nicht" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "Urlaub" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "Kann" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "RU"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "RU"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Technik"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "kann "
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann F"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "09.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "" },
-      { name: "Fred Gneckow", availability: "" },
-      { name: "Oliver Löytved-Hardegg", availability: "" },
-      { name: "Philipp Hill", availability: "" },
-      { name: "Sascha Wöpke", availability: "" },
-      { name: "Andy Eichhorst", availability: "" },
-      { name: "Christian Friedrich", availability: "" },
-      { name: "Christian Würfel", availability: "Kann Früh" },
-      { name: "Claudio Bader", availability: "" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "" },
-      { name: "Enrico Wolf", availability: "Kann Früh" },
-      { name: "Flo Mathy", availability: "" },
-      { name: "Freddy Hausburg", availability: "" },
-      { name: "Ivo Grosche", availability: "" },
-      { name: "Jean Djaman", availability: "" },
-      { name: "Leopold Dreyer", availability: "" },
-      { name: "Luis Meißner", availability: "Urlaub" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "Kann nicht" },
-      { name: "Matthias Gubisch", availability: "" },
-      { name: "Mike Einhorn", availability: "" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "RU"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Technik"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann F"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "10.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "" },
-      { name: "Fred Gneckow", availability: "" },
-      { name: "Oliver Löytved-Hardegg", availability: "" },
-      { name: "Philipp Hill", availability: "" },
-      { name: "Sascha Wöpke", availability: "" },
-      { name: "Andy Eichhorst", availability: "" },
-      { name: "Christian Friedrich", availability: "" },
-      { name: "Christian Würfel", availability: "" },
-      { name: "Claudio Bader", availability: "Kann nicht" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "" },
-      { name: "Enrico Wolf", availability: "" },
-      { name: "Flo Mathy", availability: "Kann nicht" },
-      { name: "Freddy Hausburg", availability: "" },
-      { name: "Ivo Grosche", availability: "" },
-      { name: "Jean Djaman", availability: "" },
-      { name: "Leopold Dreyer", availability: "" },
-      { name: "Luis Meißner", availability: "" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "Urlaub" },
-      { name: "Matthias Gubisch", availability: "" },
-      { name: "Mike Einhorn", availability: "Kann" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "RU"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Technik"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann F"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann F"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "11.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "" },
-      { name: "Fred Gneckow", availability: "" },
-      { name: "Oliver Löytved-Hardegg", availability: "" },
-      { name: "Philipp Hill", availability: "" },
-      { name: "Sascha Wöpke", availability: "" },
-      { name: "Andy Eichhorst", availability: "" },
-      { name: "Christian Friedrich", availability: "" },
-      { name: "Christian Würfel", availability: "" },
-      { name: "Claudio Bader", availability: "" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "" },
-      { name: "Enrico Wolf", availability: "" },
-      { name: "Flo Mathy", availability: "" },
-      { name: "Freddy Hausburg", availability: "" },
-      { name: "Ivo Grosche", availability: "" },
-      { name: "Jean Djaman", availability: "" },
-      { name: "Leopold Dreyer", availability: "" },
-      { name: "Luis Meißner", availability: "" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "" },
-      { name: "Matthias Gubisch", availability: "" },
-      { name: "Mike Einhorn", availability: "" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "RU"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Technik"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann F"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "12.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "" },
-      { name: "Fred Gneckow", availability: "Kann Früh" },
-      { name: "Oliver Löytved-Hardegg", availability: "" },
-      { name: "Philipp Hill", availability: "" },
-      { name: "Sascha Wöpke", availability: "" },
-      { name: "Andy Eichhorst", availability: "Kann Früh" },
-      { name: "Christian Friedrich", availability: "" },
-      { name: "Christian Würfel", availability: "" },
-      { name: "Claudio Bader", availability: "" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "" },
-      { name: "Enrico Wolf", availability: "Urlaub" },
-      { name: "Flo Mathy", availability: "" },
-      { name: "Freddy Hausburg", availability: "Kann Früh" },
-      { name: "Ivo Grosche", availability: "" },
-      { name: "Jean Djaman", availability: "" },
-      { name: "Leopold Dreyer", availability: "" },
-      { name: "Luis Meißner", availability: "Kann Früh" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "" },
-      { name: "Matthias Gubisch", availability: "" },
-      { name: "Mike Einhorn", availability: "" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "RU"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Technik"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann F"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "13.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "" },
-      { name: "Fred Gneckow", availability: "" },
-      { name: "Oliver Löytved-Hardegg", availability: "Kann nicht" },
-      { name: "Philipp Hill", availability: "Kann Früh" },
-      { name: "Sascha Wöpke", availability: "" },
-      { name: "Andy Eichhorst", availability: "" },
-      { name: "Christian Friedrich", availability: "" },
-      { name: "Christian Würfel", availability: "Kann Früh" },
-      { name: "Claudio Bader", availability: "" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "" },
-      { name: "Enrico Wolf", availability: "" },
-      { name: "Flo Mathy", availability: "" },
-      { name: "Freddy Hausburg", availability: "" },
-      { name: "Ivo Grosche", availability: "Kann nicht" },
-      { name: "Jean Djaman", availability: "" },
-      { name: "Leopold Dreyer", availability: "" },
-      { name: "Luis Meißner", availability: "" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "" },
-      { name: "Matthias Gubisch", availability: "" },
-      { name: "Mike Einhorn", availability: "" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "14.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "" },
-      { name: "Fred Gneckow", availability: "" },
-      { name: "Oliver Löytved-Hardegg", availability: "Urlaub" },
-      { name: "Philipp Hill", availability: "" },
-      { name: "Sascha Wöpke", availability: "Kann nicht" },
-      { name: "Andy Eichhorst", availability: "" },
-      { name: "Christian Friedrich", availability: "" },
-      { name: "Christian Würfel", availability: "" },
-      { name: "Claudio Bader", availability: "Kann nicht" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "" },
-      { name: "Enrico Wolf", availability: "" },
-      { name: "Flo Mathy", availability: "" },
-      { name: "Freddy Hausburg", availability: "" },
-      { name: "Ivo Grosche", availability: "Urlaub" },
-      { name: "Jean Djaman", availability: "" },
-      { name: "Leopold Dreyer", availability: "Kann" },
-      { name: "Luis Meißner", availability: "" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "Kann Früh" },
-      { name: "Matthias Gubisch", availability: "" },
-      { name: "Mike Einhorn", availability: "" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "Kann Früh" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "Urlaub" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "15.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "" },
-      { name: "Fred Gneckow", availability: "" },
-      { name: "Oliver Löytved-Hardegg", availability: "" },
-      { name: "Philipp Hill", availability: "" },
-      { name: "Sascha Wöpke", availability: "Urlaub" },
-      { name: "Andy Eichhorst", availability: "" },
-      { name: "Christian Friedrich", availability: "Kann" },
-      { name: "Christian Würfel", availability: "" },
-      { name: "Claudio Bader", availability: "" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "Kann" },
-      { name: "Enrico Wolf", availability: "" },
-      { name: "Flo Mathy", availability: "" },
-      { name: "Freddy Hausburg", availability: "" },
-      { name: "Ivo Grosche", availability: "" },
-      { name: "Jean Djaman", availability: "" },
-      { name: "Leopold Dreyer", availability: "" },
-      { name: "Luis Meißner", availability: "" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "" },
-      { name: "Matthias Gubisch", availability: "Kann nicht" },
-      { name: "Mike Einhorn", availability: "" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "Kann nicht" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Urlaub "
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "RU"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Technik"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "16.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "" },
-      { name: "Fred Gneckow", availability: "" },
-      { name: "Oliver Löytved-Hardegg", availability: "" },
-      { name: "Philipp Hill", availability: "" },
-      { name: "Sascha Wöpke", availability: "" },
-      { name: "Andy Eichhorst", availability: "" },
-      { name: "Christian Friedrich", availability: "" },
-      { name: "Christian Würfel", availability: "" },
-      { name: "Claudio Bader", availability: "" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "" },
-      { name: "Enrico Wolf", availability: "" },
-      { name: "Flo Mathy", availability: "" },
-      { name: "Freddy Hausburg", availability: "" },
-      { name: "Ivo Grosche", availability: "Kann Früh" },
-      { name: "Jean Djaman", availability: "" },
-      { name: "Leopold Dreyer", availability: "" },
-      { name: "Luis Meißner", availability: "" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "" },
-      { name: "Matthias Gubisch", availability: "Urlaub" },
-      { name: "Mike Einhorn", availability: "" },
-      { name: "Moritz Zuchantke", availability: "Kann" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "Kann" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Urlaub"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "RU"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Technik"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "17.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "" },
-      { name: "Fred Gneckow", availability: "" },
-      { name: "Oliver Löytved-Hardegg", availability: "" },
-      { name: "Philipp Hill", availability: "Kann Früh" },
-      { name: "Sascha Wöpke", availability: "" },
-      { name: "Andy Eichhorst", availability: "" },
-      { name: "Christian Friedrich", availability: "" },
-      { name: "Christian Würfel", availability: "Kann Früh" },
-      { name: "Claudio Bader", availability: "" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "" },
-      { name: "Enrico Wolf", availability: "" },
-      { name: "Flo Mathy", availability: "" },
-      { name: "Freddy Hausburg", availability: "Urlaub" },
-      { name: "Ivo Grosche", availability: "" },
-      { name: "Jean Djaman", availability: "Kann nicht" },
-      { name: "Leopold Dreyer", availability: "" },
-      { name: "Luis Meißner", availability: "" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "" },
-      { name: "Matthias Gubisch", availability: "" },
-      { name: "Mike Einhorn", availability: "" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "Urlaub" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Urlaub"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "RU"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Technik"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "18.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "" },
-      { name: "Fred Gneckow", availability: "" },
-      { name: "Oliver Löytved-Hardegg", availability: "" },
-      { name: "Philipp Hill", availability: "" },
-      { name: "Sascha Wöpke", availability: "Kann nicht" },
-      { name: "Andy Eichhorst", availability: "" },
-      { name: "Christian Friedrich", availability: "" },
-      { name: "Christian Würfel", availability: "" },
-      { name: "Claudio Bader", availability: "Kann nicht" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "" },
-      { name: "Enrico Wolf", availability: "" },
-      { name: "Flo Mathy", availability: "" },
-      { name: "Freddy Hausburg", availability: "" },
-      { name: "Ivo Grosche", availability: "" },
-      { name: "Jean Djaman", availability: "Urlaub" },
-      { name: "Leopold Dreyer", availability: "" },
-      { name: "Luis Meißner", availability: "Kann" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "" },
-      { name: "Matthias Gubisch", availability: "" },
-      { name: "Mike Einhorn", availability: "" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "Urlaub" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Urlaub"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "RU"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Technik"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "19.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "" },
-      { name: "Fred Gneckow", availability: "Kann Früh" },
-      { name: "Oliver Löytved-Hardegg", availability: "" },
-      { name: "Philipp Hill", availability: "" },
-      { name: "Sascha Wöpke", availability: "" },
-      { name: "Andy Eichhorst", availability: "Kann Früh" },
-      { name: "Christian Friedrich", availability: "" },
-      { name: "Christian Würfel", availability: "" },
-      { name: "Claudio Bader", availability: "" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "" },
-      { name: "Enrico Wolf", availability: "Urlaub" },
-      { name: "Flo Mathy", availability: "" },
-      { name: "Freddy Hausburg", availability: "Kann Früh" },
-      { name: "Ivo Grosche", availability: "" },
-      { name: "Jean Djaman", availability: "" },
-      { name: "Leopold Dreyer", availability: "" },
-      { name: "Luis Meißner", availability: "Kann Früh" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "" },
-      { name: "Matthias Gubisch", availability: "" },
-      { name: "Mike Einhorn", availability: "" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Urlaub"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Urlaub"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "RU"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Technik"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "20.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "" },
-      { name: "Fred Gneckow", availability: "" },
-      { name: "Oliver Löytved-Hardegg", availability: "Kann nicht" },
-      { name: "Philipp Hill", availability: "Kann Früh" },
-      { name: "Sascha Wöpke", availability: "" },
-      { name: "Andy Eichhorst", availability: "" },
-      { name: "Christian Friedrich", availability: "" },
-      { name: "Christian Würfel", availability: "Kann Früh" },
-      { name: "Claudio Bader", availability: "" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "" },
-      { name: "Enrico Wolf", availability: "" },
-      { name: "Flo Mathy", availability: "" },
-      { name: "Freddy Hausburg", availability: "" },
-      { name: "Ivo Grosche", availability: "Kann nicht" },
-      { name: "Jean Djaman", availability: "" },
-      { name: "Leopold Dreyer", availability: "" },
-      { name: "Luis Meißner", availability: "" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "" },
-      { name: "Matthias Gubisch", availability: "" },
-      { name: "Mike Einhorn", availability: "" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "21.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "" },
-      { name: "Fred Gneckow", availability: "" },
-      { name: "Oliver Löytved-Hardegg", availability: "Urlaub" },
-      { name: "Philipp Hill", availability: "" },
-      { name: "Sascha Wöpke", availability: "Kann nicht" },
-      { name: "Andy Eichhorst", availability: "" },
-      { name: "Christian Friedrich", availability: "" },
-      { name: "Christian Würfel", availability: "" },
-      { name: "Claudio Bader", availability: "Kann nicht" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "" },
-      { name: "Enrico Wolf", availability: "" },
-      { name: "Flo Mathy", availability: "" },
-      { name: "Freddy Hausburg", availability: "" },
-      { name: "Ivo Grosche", availability: "Urlaub" },
-      { name: "Jean Djaman", availability: "" },
-      { name: "Leopold Dreyer", availability: "Kann" },
-      { name: "Luis Meißner", availability: "" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "" },
-      { name: "Matthias Gubisch", availability: "" },
-      { name: "Mike Einhorn", availability: "" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "22.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "" },
-      { name: "Fred Gneckow", availability: "" },
-      { name: "Oliver Löytved-Hardegg", availability: "" },
-      { name: "Philipp Hill", availability: "" },
-      { name: "Sascha Wöpke", availability: "Urlaub" },
-      { name: "Andy Eichhorst", availability: "" },
-      { name: "Christian Friedrich", availability: "Kann" },
-      { name: "Christian Würfel", availability: "" },
-      { name: "Claudio Bader", availability: "" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "Kann" },
-      { name: "Enrico Wolf", availability: "" },
-      { name: "Flo Mathy", availability: "" },
-      { name: "Freddy Hausburg", availability: "" },
-      { name: "Ivo Grosche", availability: "" },
-      { name: "Jean Djaman", availability: "" },
-      { name: "Leopold Dreyer", availability: "" },
-      { name: "Luis Meißner", availability: "" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "" },
-      { name: "Matthias Gubisch", availability: "" },
-      { name: "Mike Einhorn", availability: "" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Urlaub"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "RU"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Technik"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann F"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "23.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "Kann Früh" },
-      { name: "Fred Gneckow", availability: "" },
-      { name: "Oliver Löytved-Hardegg", availability: "" },
-      { name: "Philipp Hill", availability: "" },
-      { name: "Sascha Wöpke", availability: "Kann Früh" },
-      { name: "Andy Eichhorst", availability: "" },
-      { name: "Christian Friedrich", availability: "" },
-      { name: "Christian Würfel", availability: "" },
-      { name: "Claudio Bader", availability: "" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "Urlaub" },
-      { name: "Enrico Wolf", availability: "" },
-      { name: "Flo Mathy", availability: "Kann Früh" },
-      { name: "Freddy Hausburg", availability: "" },
-      { name: "Ivo Grosche", availability: "" },
-      { name: "Jean Djaman", availability: "" },
-      { name: "Leopold Dreyer", availability: "Kann Früh" },
-      { name: "Luis Meißner", availability: "" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "" },
-      { name: "Matthias Gubisch", availability: "" },
-      { name: "Mike Einhorn", availability: "" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Urlaub"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Technik"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann F"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "24.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "" },
-      { name: "Fred Gneckow", availability: "Kann nicht" },
-      { name: "Oliver Löytved-Hardegg", availability: "Kann Früh" },
-      { name: "Philipp Hill", availability: "" },
-      { name: "Sascha Wöpke", availability: "" },
-      { name: "Andy Eichhorst", availability: "" },
-      { name: "Christian Friedrich", availability: "Kann Früh" },
-      { name: "Christian Würfel", availability: "" },
-      { name: "Claudio Bader", availability: "" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "" },
-      { name: "Enrico Wolf", availability: "" },
-      { name: "Flo Mathy", availability: "" },
-      { name: "Freddy Hausburg", availability: "Kann nicht" },
-      { name: "Ivo Grosche", availability: "" },
-      { name: "Jean Djaman", availability: "" },
-      { name: "Leopold Dreyer", availability: "" },
-      { name: "Luis Meißner", availability: "" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "" },
-      { name: "Matthias Gubisch", availability: "" },
-      { name: "Mike Einhorn", availability: "" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Urlaub"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Technik"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann F"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "25.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "" },
-      { name: "Fred Gneckow", availability: "Urlaub" },
-      { name: "Oliver Löytved-Hardegg", availability: "" },
-      { name: "Philipp Hill", availability: "Kann nicht" },
-      { name: "Sascha Wöpke", availability: "" },
-      { name: "Andy Eichhorst", availability: "" },
-      { name: "Christian Friedrich", availability: "" },
-      { name: "Christian Würfel", availability: "Kann nicht" },
-      { name: "Claudio Bader", availability: "" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "" },
-      { name: "Enrico Wolf", availability: "" },
-      { name: "Flo Mathy", availability: "" },
-      { name: "Freddy Hausburg", availability: "Urlaub" },
-      { name: "Ivo Grosche", availability: "" },
-      { name: "Jean Djaman", availability: "Kann" },
-      { name: "Leopold Dreyer", availability: "" },
-      { name: "Luis Meißner", availability: "Kann" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "" },
-      { name: "Matthias Gubisch", availability: "" },
-      { name: "Mike Einhorn", availability: "" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Urlaub"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Technik"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann F"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "26.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "" },
-      { name: "Fred Gneckow", availability: "" },
-      { name: "Oliver Löytved-Hardegg", availability: "" },
-      { name: "Philipp Hill", availability: "Urlaub" },
-      { name: "Sascha Wöpke", availability: "" },
-      { name: "Andy Eichhorst", availability: "Kann" },
-      { name: "Christian Friedrich", availability: "" },
-      { name: "Christian Würfel", availability: "" },
-      { name: "Claudio Bader", availability: "" },
-      { name: "Daniel Matz", availability: "Kann" },
-      { name: "Danny Weber", availability: "" },
-      { name: "Enrico Wolf", availability: "" },
-      { name: "Flo Mathy", availability: "" },
-      { name: "Freddy Hausburg", availability: "" },
-      { name: "Ivo Grosche", availability: "" },
-      { name: "Jean Djaman", availability: "" },
-      { name: "Leopold Dreyer", availability: "" },
-      { name: "Luis Meißner", availability: "Kann" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "" },
-      { name: "Matthias Gubisch", availability: "" },
-      { name: "Mike Einhorn", availability: "" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Urlaub"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Technik"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann F"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "27.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "" },
-      { name: "Fred Gneckow", availability: "" },
-      { name: "Oliver Löytved-Hardegg", availability: "" },
-      { name: "Philipp Hill", availability: "" },
-      { name: "Sascha Wöpke", availability: "" },
-      { name: "Andy Eichhorst", availability: "" },
-      { name: "Christian Friedrich", availability: "" },
-      { name: "Christian Würfel", availability: "" },
-      { name: "Claudio Bader", availability: "" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "" },
-      { name: "Enrico Wolf", availability: "" },
-      { name: "Flo Mathy", availability: "" },
-      { name: "Freddy Hausburg", availability: "Kann Früh" },
-      { name: "Ivo Grosche", availability: "" },
-      { name: "Jean Djaman", availability: "" },
-      { name: "Leopold Dreyer", availability: "" },
-      { name: "Luis Meißner", availability: "" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "" },
-      { name: "Matthias Gubisch", availability: "" },
-      { name: "Mike Einhorn", availability: "" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "28.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "" },
-      { name: "Fred Gneckow", availability: "" },
-      { name: "Oliver Löytved-Hardegg", availability: "Kann Früh" },
-      { name: "Philipp Hill", availability: "" },
-      { name: "Sascha Wöpke", availability: "" },
-      { name: "Andy Eichhorst", availability: "" },
-      { name: "Christian Friedrich", availability: "Kann Früh" },
-      { name: "Christian Würfel", availability: "" },
-      { name: "Claudio Bader", availability: "" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "" },
-      { name: "Enrico Wolf", availability: "" },
-      { name: "Flo Mathy", availability: "Urlaub" },
-      { name: "Freddy Hausburg", availability: "" },
-      { name: "Ivo Grosche", availability: "Kann nicht" },
-      { name: "Jean Djaman", availability: "" },
-      { name: "Leopold Dreyer", availability: "" },
-      { name: "Luis Meißner", availability: "" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "" },
-      { name: "Matthias Gubisch", availability: "" },
-      { name: "Mike Einhorn", availability: "" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "29.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "" },
-      { name: "Fred Gneckow", availability: "" },
-      { name: "Oliver Löytved-Hardegg", availability: "" },
-      { name: "Philipp Hill", availability: "Kann nicht" },
-      { name: "Sascha Wöpke", availability: "" },
-      { name: "Andy Eichhorst", availability: "" },
-      { name: "Christian Friedrich", availability: "" },
-      { name: "Christian Würfel", availability: "Kann nicht" },
-      { name: "Claudio Bader", availability: "" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "" },
-      { name: "Enrico Wolf", availability: "" },
-      { name: "Flo Mathy", availability: "" },
-      { name: "Freddy Hausburg", availability: "" },
-      { name: "Ivo Grosche", availability: "Urlaub" },
-      { name: "Jean Djaman", availability: "" },
-      { name: "Leopold Dreyer", availability: "Kann" },
-      { name: "Luis Meißner", availability: "" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "" },
-      { name: "Matthias Gubisch", availability: "" },
-      { name: "Mike Einhorn", availability: "" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Urlaub"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "F"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Technik"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann "
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann F"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "30.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "" },
-      { name: "Christian Daubitz", availability: "" },
-      { name: "Fred Gneckow", availability: "" },
-      { name: "Oliver Löytved-Hardegg", availability: "" },
-      { name: "Philipp Hill", availability: "" },
-      { name: "Sascha Wöpke", availability: "" },
-      { name: "Andy Eichhorst", availability: "" },
-      { name: "Christian Friedrich", availability: "" },
-      { name: "Christian Würfel", availability: "" },
-      { name: "Claudio Bader", availability: "" },
-      { name: "Daniel Matz", availability: "" },
-      { name: "Danny Weber", availability: "" },
-      { name: "Enrico Wolf", availability: "" },
-      { name: "Flo Mathy", availability: "" },
-      { name: "Freddy Hausburg", availability: "" },
-      { name: "Ivo Grosche", availability: "" },
-      { name: "Jean Djaman", availability: "" },
-      { name: "Leopold Dreyer", availability: "" },
-      { name: "Luis Meißner", availability: "" },
-      { name: "Mark Papworth", availability: "" },
-      { name: "Martin Glogowski", availability: "" },
-      { name: "Matthias Gubisch", availability: "" },
-      { name: "Mike Einhorn", availability: "" },
-      { name: "Moritz Zuchantke", availability: "" },
-      { name: "Philipp Drube", availability: "" },
-      { name: "Ray Kajioka", availability: "" },
-      { name: "Robin Gansler", availability: "" },
-      { name: "Steven Daumann", availability: "" },
-      { name: "Torsten Blaufuss", availability: "" },
-      { name: "Uli Wiesner", availability: "" },
-      { name: "Yves Kasten", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
-      { name: "", availability: "" },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Urlaub"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Technik"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann "
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann Spät"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann F"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann nicht"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann Früh"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
     ],
     "31.05.21": [
-      { name: "Alpay Yeşildağlar ", availability: "\r" },
-      { name: "Christian Daubitz", availability: "\r" },
-      { name: "Fred Gneckow", availability: "\r" },
-      { name: "Oliver Löytved-Hardegg", availability: "\r" },
-      { name: "Philipp Hill", availability: "\r" },
-      { name: "Sascha Wöpke", availability: "\r" },
-      { name: "Andy Eichhorst", availability: "\r" },
-      { name: "Christian Friedrich", availability: "\r" },
-      { name: "Christian Würfel", availability: "\r" },
-      { name: "Claudio Bader", availability: "\r" },
-      { name: "Daniel Matz", availability: "\r" },
-      { name: "Danny Weber", availability: "\r" },
-      { name: "Enrico Wolf", availability: "\r" },
-      { name: "Flo Mathy", availability: "\r" },
-      { name: "Freddy Hausburg", availability: "\r" },
-      { name: "Ivo Grosche", availability: "\r" },
-      { name: "Jean Djaman", availability: "\r" },
-      { name: "Leopold Dreyer", availability: "\r" },
-      { name: "Luis Meißner", availability: "\r" },
-      { name: "Mark Papworth", availability: "\r" },
-      { name: "Martin Glogowski", availability: "\r" },
-      { name: "Matthias Gubisch", availability: "\r" },
-      { name: "Mike Einhorn", availability: "\r" },
-      { name: "Moritz Zuchantke", availability: "\r" },
-      { name: "Philipp Drube", availability: "\r" },
-      { name: "Ray Kajioka", availability: "\r" },
-      { name: "Robin Gansler", availability: "\r" },
-      { name: "Steven Daumann", availability: "\r" },
-      { name: "Torsten Blaufuss", availability: "\r" },
-      { name: "Uli Wiesner", availability: "\r" },
-      { name: "Yves Kasten", availability: "\r" },
-      { name: "", availability: "\r" },
-      { name: "", availability: "\r" },
-      { name: "", availability: "" },
-    ],
-  },
+        {
+            "name": "Alpay Yeşildağlar ",
+            "availability": "Urlaub\r"
+        },
+        {
+            "name": "Christian Daubitz",
+            "availability": "Kann nicht\r"
+        },
+        {
+            "name": "Fred Gneckow",
+            "availability": "Kann Früh\r"
+        },
+        {
+            "name": "Oliver Löytved-Hardegg",
+            "availability": "Kann nicht\r"
+        },
+        {
+            "name": "Philipp Hill",
+            "availability": "Kann nicht\r"
+        },
+        {
+            "name": "Sascha Wöpke",
+            "availability": "Technik\r"
+        },
+        {
+            "name": "Andy Eichhorst",
+            "availability": "Kann\r"
+        },
+        {
+            "name": "Christian Friedrich",
+            "availability": "Kann nicht\r"
+        },
+        {
+            "name": "Christian Würfel",
+            "availability": "Kann\r"
+        },
+        {
+            "name": "Claudio Bader",
+            "availability": "Kann nicht\r"
+        },
+        {
+            "name": "Daniel Matz",
+            "availability": "Kann\r"
+        },
+        {
+            "name": "Danny Weber",
+            "availability": "Kann\r"
+        },
+        {
+            "name": "Enrico Wolf",
+            "availability": "Kann\r"
+        },
+        {
+            "name": "Flo Mathy",
+            "availability": "Kann\r"
+        },
+        {
+            "name": "Freddy Hausburg",
+            "availability": "Kann nicht\r"
+        },
+        {
+            "name": "Ivo Grosche",
+            "availability": "Kann nicht\r"
+        },
+        {
+            "name": "Jean Djaman",
+            "availability": "Kann Spät\r"
+        },
+        {
+            "name": "Leopold Dreyer",
+            "availability": "Kann nicht\r"
+        },
+        {
+            "name": "Luis Meißner",
+            "availability": "Kann nicht\r"
+        },
+        {
+            "name": "Mark Papworth",
+            "availability": "Kann\r"
+        },
+        {
+            "name": "Martin Glogowski",
+            "availability": "Kann nicht\r"
+        },
+        {
+            "name": "Matthias Gubisch",
+            "availability": "Kann F\r"
+        },
+        {
+            "name": "Mike Einhorn",
+            "availability": "Kann Spät\r"
+        },
+        {
+            "name": "Moritz Zuchantke",
+            "availability": "Kann nicht\r"
+        },
+        {
+            "name": "Philipp Drube",
+            "availability": "Kann\r"
+        },
+        {
+            "name": "Ray Kajioka",
+            "availability": "Kann\r"
+        },
+        {
+            "name": "Robin Gansler",
+            "availability": "Kann nicht\r"
+        },
+        {
+            "name": "Steven Daumann",
+            "availability": "Kann\r"
+        },
+        {
+            "name": "Torsten Blaufuss",
+            "availability": "Kann\r"
+        },
+        {
+            "name": "Uli Wiesner",
+            "availability": "Kann nicht\r"
+        },
+        {
+            "name": "Kann nicht",
+            "availability": ""
+        }
+    ]
+},
+
+  
   bulkPositions: [],
   dataInputTab: "Month",
 };
